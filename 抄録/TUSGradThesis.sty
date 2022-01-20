@@ -1,0 +1,135 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 東京理科大学 工学部 情報工学科
+% 卒業論文 スタイルファイル Ver 1.0 (21/Dec/2021)
+%
+% 作: 立川 智章＠
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NeedsTeXFormat{pLaTeX2e}
+\ProvidesPackage{TUSGradThesis}[21 Dec 2021, v1.0]
+\typeout{Style file for 卒業論文}
+\usepackage[left=20mm,right=20mm,top=25mm,bottom=15mm]{geometry}
+
+% \addtolength{\topmargin}{-22mm}
+% \addtolength{\oddsidemargin}{-28mm}
+% \setlength{\textheight}{250mm}
+% \setlength{\textwidth}{170mm}
+
+\pagenumbering{arabic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\提出者}[7]{%
+\gdef\科目名{#1}\gdef\実験課題名{#2}
+\gdef\実験実施年{#3}\gdef\実験実施月{#4}\gdef\実験実施日{#5}
+\gdef\学籍番号{#6}
+\gdef\氏名{#7}
+}
+
+\newcommand{\発表年度}[1]{%
+\gdef\発表年度{#1}
+}
+
+\newcommand{\論文題目}[4]{%
+\gdef\日本語論文題目１{#1}
+\gdef\日本語論文題目２{#2}
+\gdef\英語論文題目１{#3}
+\gdef\英語論文題目２{#4}
+}
+
+\newcommand{\著者情報}[2]{%
+\gdef\学籍番号{#1} \gdef\氏名{#2}
+}
+
+\newcommand{\指導教員}[2]{%
+\gdef\指導教員１{#1}
+\gdef\指導教員２{#2}
+}
+
+\newcommand{\要旨}[2]{%
+\gdef\日本語要旨{#1}
+\gdef\英語要旨{#2}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 表紙
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\titleoutput}{
+\thispagestyle{empty}
+
+\vspace*{72pt}
+
+\begin{center}
+ {\fontsize{24pt}{24pt}\selectfont 卒　業　研　究　論　文}
+
+\vspace*{24pt}
+
+ {\fontsize{18pt}{18pt}\selectfont {\発表年度}年度}
+\end{center}
+
+\vspace*{48pt}
+
+\fontsize{18pt}{12pt}\selectfont
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{tabular}{p{5zw}p{20zw}}
+  \makebox[2zw][s]{題　　目 }&  {\日本語論文題目１} \\ \cline{2-2}  \\
+  &  {\日本語論文題目２} \\ \cline{2-2}  \\
+  \makebox[2zw][s]{英文題目 }&  {\英語論文題目１} \\ \cline{2-2}  \\
+  &  {\英語論文題目２} \\ \cline{2-2}  \\
+ \end{tabular}
+
+\vspace*{72pt}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{tabular}{p{5zw}p{18zw}}
+  \makebox[2zw][s]{指導教員 }&  {\指導教員１} \\ \cline{2-2}  \\
+  &  {\指導教員２} \\ \cline{2-2}  \\
+ \end{tabular}
+
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{tabular}{p{5zw}p{13zw}}
+  \makebox[2zw][s]{氏　　名 }&  {\氏名} \\ \cline{2-2}  \\
+  \makebox[2zw][s]{学籍番号 }&  {\学籍番号} \\ \cline{2-2}  \\
+ \end{tabular}
+
+\vspace*{78pt}
+
+\begin{center}
+{\fontsize{14pt}{14pt}\selectfont 東京理科大学 工学部 情報工学科}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{page}{0}
+\clearpage
+\normalsize
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 要旨
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\gtabstract}{
+\pagestyle{empty}
+\begin{center}
+ {\fontsize{24pt}{24pt}\selectfont 卒業論文要旨}
+\end{center}
+
+\vspace*{24pt}
+\noindent
+要旨\\
+\indent{\日本語要旨}
+
+\bigskip
+\bigskip
+
+\noindent
+Abstract\\
+\indent{\英語要旨}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{page}{0}
+\clearpage
+\pagestyle{plain}
+\normalsize
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}

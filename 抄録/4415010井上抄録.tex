@@ -1,0 +1,263 @@
+\documentclass[a4paper,10pt]{jarticle}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{here}
+\usepackage[dvipdfmx]{color}
+\usepackage{subfigure}
+\usepackage[dvipdfmx]{graphicx} 
+\usepackage[dvipdfmx]{color}
+\usepackage{wrapfig}
+\usepackage[left=20mm,right=20mm,top=20mm,bottom=32mm]{geometry}
+
+
+\pagestyle{empty}
+\makeatletter
+  \def\@maketitle{
+  \newpage
+  \begin{center}
+  \let\footnote\thanks
+    {\LARGE \@title \par}
+    \vskip 1.5em
+  \end{center}
+    \mbox{}\hfill
+    {\large
+      \lineskip .5em
+      \begin{tabular}[t]{c}
+        \@author
+      \end{tabular}\par}
+    \vskip 1em
+  \begin{center}
+    {\large \@date}
+  \end{center}
+  \par\vskip 1.5em}
+\makeatother
+
+\title{\large{多目的進化計算におけるトーナメント選択の有効性の評価}}
+\author{井上 舜也(藤井孝藏教授,立川智章講師)}
+\date{\vspace{-18mm}}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\section{はじめに}
+\vspace{-2mm}
+近年，トレードオフ関係にある複数の目的関数を同時に最適化する多目的最適化問題(Multi-objective Optimization Ploblems: MOP)に関する研究が盛んに行われている\cite{Li2009}．
+複数の目的を同時に最適化すると全ての目的関数で最適値を選択する事は難しく,ある目的関数では最適値を取れなくなる場合が多い.そのような目的間の関係をトレードオフ関係と呼ぶ．
+このトレードオフ関係にある多目的について最適化を行うとどの目的関数でも他の解に対して全て勝っている解が得られる.この解のことをパレート最適解と呼ぶ.パレート最適解は唯一に定まらず，集合として得ら れる.この集合のことをパレートフロントと呼ぶ.
+パレート最適解を効率的に探索する手法の中でも,代表的な手法として遺ぼ伝的アルゴリズム(Genetic Algorithm :  GA)がある.これは生物の遺伝と進化を模倣した解探索手法であり,評価,選択,交叉,突然変異を繰り返し行うことで最適解を探索する手法である.多目的進化計算手法(Multi-Objective Evolutionary Algorithm : MOEA)はGAを多目的最適化に対応させた手法である.しかし,GAの過程で初期収束や解探索の停滞などの問題が起こることがある。これらの問題を解決するためには,解集団の多様性を限りなく保ち,親個体ペアからより優れた個体を作り出す必要がある.そのため,多くの手法で親個体ペアの選択にトーナメント選択が用いられているが,目的関数が変化した場合に,それが進化に及ぼす影響について十分調べられていなかった.そこで,先行研究では目的関数を3に絞り,多目的進化計算にNSGA-IIを用いて親個体選択手法の一つであるトーナメント選択に着目し，ベンチマーク問題を用いてトーナメント選択が進化に与える影響を調べることを目的とし，ランダム選択との比較を行った.その結果, NSGA-IIを用いた3目的の計算では,トーナメント選択が収束性に与える影響はあまり大きくないと考えられるということが分かった.しかし,これは評価指標がGDであり,大切な指標の一つである解の多様性に関しては考慮されてない.
+また目的関数が3目的に関して調べられているが, NSGA-IIによる多目的最適化では,一般的に目的数 M が 2 か 3の問題に対して良好に機能するが,さらに目的数 M が増加すると,最適化が困難になることが確認されている\cite{h.i}.
+
+そこで,本研究ではMOEAにおける親個体選択手法の一つであるトーナメント選択に着目し,様々なベンチマーク問題を用いてトーナメント選択の進化に与える影響が目的関数によってどれだけ変わるかを調べることを目的とし,ランダム選択との比較を行う.その際の評価指標には後述するHyperVolumeを用いる.本研究では目的関数は3,5,7に限定して行い,多目的進化計算にはNSGA-II,そして目的関数の増加に対応できるように改良されてつくられたNSGA-III,IBEAを用いて行う.
+
+\vspace{-5mm}
+\section{親個体選択法}
+\vspace{-2mm}
+トーナメント選択は親個体選択手法の一つであり,多くの進化計算手法で用いられている.トーナメント選択は,事前に設定された数の親個体候補が個体群からランダムに選択され,最も良い候補が親個体となる.このとき親個体候補の数をトーナメントサイズと呼ぶ\cite{katai}.図1はトーナメントサイズが3の場合のトーナメント選択のイメージである.
+\vspace{-1.0mm}
+\begin{wrapfigure}[10]{r}{65mm}
+\vspace{-0.5mm}
+\centering
+\includegraphics[scale=0.60,clip]{img/tournament.png}
+\vspace{-0.5mm}
+\caption{トーナメント選択}
+\label{common}
+\end{wrapfigure}
+
+トーナメント選択が進化に与える影響を調べるために,ランダム選択との比較を行う.ランダム選択とは,個体群から一個体をランダムに取り出し,それを親個体として選択する手法である.ランダム選択はトーナメントサイズが1のトーナメント選択と同等のものである.
+\vspace{-5mm}
+\section{進化計算手法}
+\vspace{-2mm}
+\subsection{NSGA-II}
+NSGA-II\cite{Deb}は,Debらによって提案された遺伝的アルゴリズムの一つである.NSGA-IIは, NSGA \cite{Srinivas}の改良アルゴリズムであり.
+解の優越性に基づいて個体を評価することが特徴である.また,エリート主義の導入や,解の多様性を維持するために混雑距離(Crowding Distance)\cite{Deb}を用いることも特徴の一つである.
+\vspace{-2mm}
+\subsection{NSGA-III}
+NSGA-III\cite{Jain}は,Debらにより提案され,目的数が4以上の多目的最適化問題において,高い探索能力となるようNSGA-IIを改良した探索手法である.NSGA-IIとの大きな違いは,多様性維持のための機構が異なっている点である.NSGA-IIIは, reference lineに基づく個体選択により探索を行っている.
+\vspace{-2mm}
+\subsection{IBEA}
+IBEA\cite{Zitzler}は,Zitlerによって提案されたアルゴリズムである.これは, Indicator functionとよばれる個体群全体を評価する関数を用いたアルゴリズムであり, Hypervolume\cite{Deb}が Indicator functionとして用いられることが多い.つまり,個体群全体を評価するIndicator functionであるHypervolumeの最大化を行う単一目的最適化手法となる.
+\vspace{-2mm}
+
+\section{計算条件と評価指標}
+トーナメント選択とランダム選択との比較を行う際の計算条件を表1に示す.
+本研究では,目的数が可変であるベンチマーク問題のDTLZ,WFG問題の一部を使う.
+またトーナメント選択を行う際のトーナメントサイズは本研究では2とする.
+ 
+評価指標にはHypervolume(HV)を用いる.HVは任意の参照点$W$を用いて,得られたパレート最適解集合の各点の和集合の領域が占める面積,体積を計算する.
+参照点は最適化方向とは反対方向に用意することが多く,値が大きいほどその解集合が収束性と多様性に関して優れていることを意味する.本研究では全10試行の評価指標値から,平均値を計算し,参照点の座標でわったものを用いて議論を行う.
+また本研究で用いた参照点の座標を表2に示す.\vspace{-5mm}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cc}
+\begin{minipage}{1\hsize}
+\begin{center}
+\caption{計算条件}
+\label{tb::dataset}
+\begin{tabular}{|c|c|}
+\hline 
+テスト問題&DTLZ2,3,4 WFG1,2,6,8,9 \\
+\hline 
+進化計算手法&NSGA-II,NSGA-III,IBEA\\
+\hline
+親個体選択手法&ランダム選択,トーナメント選択\\
+\hline
+交叉手法&SBX\\
+\hline
+突然変異手法&polynomical mutatation\\
+\hline
+目的数&3,5,7\\
+\hline
+設計変数&12\\
+\hline
+集団サイズ&100\\
+\hline
+世代数&100\\
+\hline
+試行回数&10\\
+\hline
+\end{tabular}
+\end{center}
+\end{minipage}
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\vspace{-5mm}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{cc}
+\begin{minipage}{1\hsize}
+\begin{center}
+\caption{Hypervolumeの参照点}
+\label{tb::dataset}
+\begin{tabular}{|c||c|c|c|}
+\hline 
+テスト問題&3目的&5目的&7目的 \\
+\hline 
+DTLZ2,4&(1.5,1.5,1.5)&(1.5,1.5,1.5,1.5,1.5)&(1.5,1.5,1.5,1.5,1.5,1.5,1.5)\\
+\hline
+DTLZ3&(225,225,225)&(225,225,225,225,225)&(225,225,225,225,225,225,225)\\
+\hline
+WFG1,2,6,8,9&(3.0,6.0,9.0)&(3.0,6.0,9.0,12.0,15.0)&(3.0,6.0,9.0,12.0,15.0,18.0,21.0)\\
+\hline
+\end{tabular}
+\end{center}
+\end{minipage}
+\end{tabular}
+\end{center}
+\end{table}
+
+\section{結果および考察}
+\vspace{-2mm}
+表1の条件で実験を行い,その結果の一部を図2〜4に示す.これらの図は,横軸に目的関数の数,縦軸にHVの値を載せている.
+\vspace{-2mm}
+
+
+図2は, テスト問題にDTLZ2を用いて比較した結果である.
+この問題では,どの目的関数に注目してもトーナメントとランダム選択の差が非常に小さい結果になった.
+また,進化計算手法による変化に違いがあらわれなかった.
+
+図3は,テスト問題にDTLZ4を用いて比較した結果である.
+この問題では,3目的でのトーナメントとランダム選択の差があるものの目的関数の増加によって差がなくなるという結果になった.
+進化計算手法による違いは,3目的での性能に違いがあらわれた.
+
+図4は.テスト問題にWFG8を用いて比較した結果である.
+この問題では,それぞれの目的関数で差が多少あらわれたが,は非常に小さな差であった.
+進化計算手法による違いは,小さな変化があらわれた.
+本研究で用いたテスト問題の多くはこのように目的関数によらず差が非常に小さな結果になった.
+
+これらの結果から,目的関数が大きくなるとトーナメント選択の影響は非常に小さいことが確認できる.
+これは,目的関数の数が大きくなることによって,パレート最適解の数が増えることで,進化計算の初期段階で個体間の適応度に差がなくなっていき,選択圧がかかりにくくなるためではないかと考えられる.
+
+\vspace{+2mm}
+\begin{figure}[H]
+\begin{center}
+   				\subfigure[NSGA-II]{
+				\includegraphics[width=0.3\linewidth]{NSGA-II/img/DTLZ2.png}
+				
+				}
+				\subfigure[NSGA-III]{
+				\includegraphics[width=0.3\linewidth]{NSGA-III/img/DTLZ2.png}
+				
+				}
+				\subfigure[IBEA]{
+				\includegraphics[width=0.3\linewidth]{IBEA/img/DTLZ2.png}
+				
+				}
+				\end{center}
+				\setlength{\abovecaptionskip}{0mm}
+\setlength{\belowcaptionskip}{0mm}
+\vspace{-2mm}
+			\caption{DTLZ2の比較}
+	
+	\end{figure}
+\vspace{+2mm}
+\begin{figure}[H]
+\begin{center}
+   				\subfigure[NSGA-II]{
+				\includegraphics[width=0.3\linewidth]{NSGA-II/img/DTLZ4.png}
+				
+				}
+				\subfigure[NSGA-III]{
+				\includegraphics[width=0.3\linewidth]{NSGA-III/img/DTLZ4.png}
+				
+				}
+				\subfigure[IBEA]{
+				\includegraphics[width=0.3\linewidth]{IBEA/img/DTLZ4.png}
+				
+				}
+				
+				\end{center}
+				\setlength{\abovecaptionskip}{0mm}
+\setlength{\belowcaptionskip}{0mm}
+\vspace{-2mm}
+			\caption{DTLZ4の比較}
+	
+	\end{figure}
+\vspace{+2mm}
+\begin{figure}[H]
+\begin{center}
+   				\subfigure[NSGA-II]{
+				\includegraphics[width=0.3\linewidth]{NSGA-II/img/WFG8.png}
+				
+				}
+				\subfigure[NSGA-III]{
+				\includegraphics[width=0.3\linewidth]{NSGA-III/img/WFG8.png}
+				
+				}
+				\subfigure[IBEA]{
+				\includegraphics[width=0.3\linewidth]{IBEA/img/WFG8.png}
+				
+				}
+				\end{center}
+				\setlength{\abovecaptionskip}{0mm}
+\setlength{\belowcaptionskip}{0mm}
+\vspace{-2mm}
+			\caption{WFG8の比較}
+	
+	\end{figure}
+	
+\vspace{+20mm}
+\section{まとめ}
+\vspace{-2mm}
+本論文では,多目的進化計算におけるトーナメント選択の有効性が目的関数の数によって如何に変化するか確認を行った.そのために,3種類の代表的な多目的進化計算手法と8種類のベンチマーク問題を用いることでトーナメント選択の有効性を検証をした.
+
+その結果,本実験で用いたベンチーマーク問題においては,目的関数の数が小さい場合に,トーナメント選択が多少有効である場合があるが,目的関数の数が大きい時はトーナメント選択の影響が非常に小さいことが確認できた.
+
+今後の課題として,集団サイズが多ければその分多様性は増すことが考えられるので集団サイズを増やしての検証が必要である.また集団サイズによる変化がない場合にはトーナメント選択以外の親個体選択法の提案が必要である.また,本実験で親個体選択が進化に与える影響が非常に小さい可能性が浮かびあがったため,突然変異など他の手法に注目する必要性がある.
+
+\begin{thebibliography}{9}
+  \bibitem{Li2009} H.Li and Q. Zhang,
+    Multiobjective optimization problems with complicated pareto sets, moea/d and nsga-ii,
+    $Evolutionary Computation, IEEE Transactions$..., 2009.
+   \bibitem{h.i}  H. Ishibuchi, N. Tsukamoto and Y. Nojima, “Evolutionary many-objective optimization: A short review,” In Proceedings of 2008 IEEE Congress on Evolutionary Computation (CEC 2008),pp.2424-2431 2008. 
+   \bibitem{katai} 片井修，玄光男，大野勝久，石渕久生，河上，浩司，辻村泰寛，半田久志，林林,岡本東. 進化技術 第I巻基礎編,2010
+  \bibitem{Deb} K. Deb, A. Pratap, S. Agarwal, and T. Meyarivan. A fast and elitist multiobjective genetic algorithm: NSGA-II,Evolutionary Computation,IEEE Transactions Vol.6,No.2, pp.182-197,2002  
+  \bibitem{Srinivas}N.Srinivas and K.Deb．Multiobjective optimization using nondominated sorting in genetic algorithms.Evolutionary Computation,Vol.2, No. 3, pp.221-248 1994
+  \bibitem{Jain} Deb, K. and Jain, H.: An evolutionary many-objective opti- mization algorithm using reference-point based non-dominated sort- ing approach, part I: Solving problems with box constraints, IEEE Transactions on Evolutionary Computation (TEVC),Vol.18,No.4,pp.577-601 2014
+  \bibitem{Zitzler}E. Zitzler and S. Kunzil: Indicator-based selection in multiobjective search; Lecture Notes in Computer Science 3242: Parallel Problem Solving from Nature PPSN Vol.3, pp.832-842, Springer 2004 
+ 
+   \end{thebibliography}
+
+\end{document}

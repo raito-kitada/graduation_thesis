@@ -1,0 +1,1058 @@
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.15)  2 FEB 2018 15:36
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+pLaTeX2e <2006/11/10> (based on LaTeX2e <2016/03/31> patch level 0)
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jreport.cls
+Document Class: jreport 2006/06/27 v1.6 Standard pLaTeX class
+\c@@paper=\count81
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/jsize11.clo
+File: jsize11.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
+)
+\c@part=\count82
+\c@chapter=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 677.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count91
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 95.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/dvipdfmx-def/dvipdfmx.def
+File: dvipdfmx.def 2015/11/04 v4.07 LaTeX color/graphics driver for dvipdfmx (T
+eX Live/ChoF)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvipdfmx.def on input line 143.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen123
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen124
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks17
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks18
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2016/02/27 v1.2a Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldmincho=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 142.
+LaTeX Info: Redefining \bm on input line 208.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/here/here.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks21
+\float@box=\box43
+\@float@everytoks=\toks22
+\@floatcapt=\box44
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen132
+)
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/ascmac.sty
+(/usr/local/texlive/2015/texmf-dist/tex/platex/base/tascmac.sty
+\@savetbaselineshift=\dimen133
+\@saveybaselineshift=\dimen134
+\scb@x=\box45
+\scscb@x=\box46
+\@bw=\dimen135
+\@nbox=\box47
+\@nbody=\box48
+\@scw=\dimen136
+\@itemh=\dimen137
+\@iboxpos=\toks23
+\@iboxstr=\box49
+\@bwsp=\box50
+\@@bwsp=\box51
+\@bcal=\count105
+\shaderule=\dimen138
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen139
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen140
+\subfiglabelskip=\skip58
+\c@subfigure=\count106
+\c@lofdepth=\count107
+\c@subtable=\count108
+\c@lotdepth=\count109
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip59
+\subfig@bottom=\skip60
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cases/cases.sty
+Package: cases 2002/05/02 ver 2.5 
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count110
+\Gm@cntv=\count111
+\c@Gm@tempcnt=\count112
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks24
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2012/05/23 Federico Garcia
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks25
+\verbatim@line=\toks26
+\verbatim@in@stream=\read1
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks27
+\c@algorithm=\count113
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count114
+\c@ALC@line=\count115
+\c@ALC@rem=\count116
+\c@ALC@depth=\count117
+\ALC@tlm=\skip61
+\algorithmicindent=\skip62
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks28
+\AP@partial=\box52
+\AP@footins=\box53
+) (./main.aux
+
+LaTeX Warning: Label `sansyou' multiply defined.
+
+
+LaTeX Warning: Label `dtlz2::a' multiply defined.
+
+
+LaTeX Warning: Label `sub@dtlz2::a' multiply defined.
+
+
+LaTeX Warning: Label `dtlz2::b' multiply defined.
+
+
+LaTeX Warning: Label `sub@dtlz2::b' multiply defined.
+
+
+LaTeX Warning: Label `fig:nondom_sol' multiply defined.
+
+
+LaTeX Warning: Label `fig:nondom_sol' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=8.51457pt
+* \footskip=30.0pt
+* \marginparwidth=60.0pt
+* \marginparsep=10.0pt
+* \columnsep=21.07251pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 87.
+LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 113.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 113.
+ (./main.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+[1
+
+])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+ [2] (./main.lof [3
+
+] [4])
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [5] (./main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+ (../sections/introduction.tex
+[1
+
+]
+第 1 章
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 10.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 10.
+[1
+
+] [2]) (../sections/moea.tex [3]
+第 2 章
+[4
+
+]
+File: ../figures/pareto.eps Graphic file (type eps)
+ <../figures/pareto.eps> [5]
+File: ../figures/flowchart.eps Graphic file (type eps)
+ <../figures/flowchart.eps> [6] [7]
+File: ../figures/nsga.eps Graphic file (type eps)
+
+<../figures/nsga.eps> [8
+
+] [9] [10
+
+]
+File: ../figures/crowding.eps Graphic file (type eps)
+ <../figures/crowding.eps> [11] [12] [13]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 365.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 365.
+
+[14]) (../sections/related.tex [15]
+第 3 章
+File: ../figures/dominance_image.eps Graphic file (type eps)
+<../figures/dominance_image.eps>
+File: ../figures/epsilon-dominance_image.eps Graphic file (type eps)
+ <../figures/epsilon-dominance_image.eps>
+Overfull \hbox (2.84676pt too wide) in paragraph at lines 18--32
+[][] 
+ []
+
+[16
+
+]
+File: ../figures/discretization_sample.eps Graphic file (type eps)
+ <../figures/discretization_sample.eps> [17
+
+] [18]
+Overfull \hbox (7.11884pt too wide) in paragraph at lines 97--132
+[][] 
+ []
+
+[19]
+File: ../figures/DTLZ2_GD.eps Graphic file (type eps)
+ <../figures/DTLZ2_GD.eps>
+File: ../figures/DTLZ3_GD_pre.eps Graphic file (type eps)
+ <../figures/DTLZ3_GD_pre.eps>
+File: ../figures/DTLZ4_GD.eps Graphic file (type eps)
+
+<../figures/DTLZ4_GD.eps>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 452--494
+[][] 
+ []
+
+File: ../figures/DTLZ2_IGD.eps Graphic file (type eps)
+<../figures/DTLZ2_IGD.eps>
+File: ../figures/DTLZ3_IGD_pre.eps Graphic file (type eps)
+ <../figures/DTLZ3_IGD_pre.eps>
+File: ../figures/DTLZ4_IGD.eps Graphic file (type eps)
+
+<../figures/DTLZ4_IGD.eps>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 502--532
+[][] 
+ []
+
+File: ../figures/DTLZ2digi2_double.pdf Graphic file (type pdf)
+<../figures/DTLZ2digi2_double.pdf>
+File: ../figures/DTLZ3digi2_double.pdf Graphic file (type pdf)
+ <../figures/DTLZ3digi2_double.pdf>
+File: ../figures/DTLZ4_another_double.pdf Graphic file (type pdf)
+
+<../figures/DTLZ4_another_double.pdf>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 540--573
+[][]
+ []
+
+File: ../figures/DTLZ2digi16_double.pdf Graphic file (type pdf)
+<../figures/DTLZ2digi16_double.pdf>
+File: ../figures/DTLZ3digi16_double.pdf Graphic file (type pdf)
+ <../figures/DTLZ3digi16_double.pdf>
+File: ../figures/DTLZ4_double_another.pdf Graphic file (type pdf)
+
+<../figures/DTLZ4_double_another.pdf>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 578--614
+[][] 
+ []
+
+[20]
+Overfull \hbox (5.1045pt too wide) in paragraph at lines 638--646
+[] \JY1/mc/m/n/10.95 ここで ， \OT1/cmr/m/n/10.95 20 \JY1/mc/m/n/10.95 世代目に
+おける変数 $\OML/cmm/m/it/10.95 x[]$\JY1/mc/m/n/10.95 ， $\OML/cmm/m/it/10.95 x
+[]$ \JY1/mc/m/n/10.95 の累積頻度ヒストグラムをそれぞれ図 \OT1/cmr/m/n/10.95 3.2
+.10(a)\JY1/mc/m/n/10.95 ，
+ []
+
+File: ../figures/sbx_a.eps Graphic file (type eps)
+<../figures/sbx_a.eps>
+File: ../figures/sbx_b.eps Graphic file (type eps)
+ <../figures/sbx_b.eps> [21
+
+]
+File: ../figures/mutation_a.eps Graphic file (type eps)
+ <../figures/mutation_a.eps>
+File: ../figures/mutation_b.eps Graphic file (type eps)
+
+<../figures/mutation_b.eps>
+File: ../figures/sbx_hist.png Graphic file (type bmp)
+ <../figures/sbx_hist.png>
+File: ../figures/mutation_hist.png Graphic file (type bmp)
+
+<../figures/mutation_hist.png> [22] [23
+
+]
+File: ../figures/kaizen_hist_digi2.pdf Graphic file (type pdf)
+ <../figures/kaizen_hist_digi2.pdf>
+File: ../figures/kaizen_hist_digi16.pdf Graphic file (type pdf)
+
+<../figures/kaizen_hist_digi16.pdf>
+File: ../figures/kaizen_hist_mod.pdf Graphic file (type pdf)
+ <../figures/kaizen_hist_mod.pdf>
+Overfull \hbox (18.86363pt too wide) in paragraph at lines 732--765
+[][] 
+ []
+
+File: ../figures/DTLZ3_modified_GD.eps Graphic file (type eps)
+<../figures/DTLZ3_modified_GD.eps>
+File: ../figures/DTLZ3_modified_IGD.eps Graphic file (type eps)
+ <../figures/DTLZ3_modified_IGD.eps>
+File: ../figures/DTLZ3mod_double.pdf Graphic file (type pdf)
+
+<../figures/DTLZ3mod_double.pdf>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 804--834
+[][] 
+ []
+
+[24]
+File: ../figures/DRSs.eps Graphic file (type eps)
+ <../figures/DRSs.eps>) (../sections/experimental.tex [25
+
+]
+第 4 章
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 16.
+
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 22.
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <9.5> not available
+(Font)              size <9> substituted on input line 22.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 22.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 22.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <9.5> not available
+(Font)              size <9> substituted on input line 22.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 22.
+
+[26
+
+] [27] [28]
+File: ../figures/DTLZ3_gx.eps Graphic file (type eps)
+ <../figures/DTLZ3_gx.eps> [29]
+File: ../figures/dtlz4_position_sensitive.eps Graphic file (type eps)
+
+<../figures/dtlz4_position_sensitive.eps> [30
+
+] [31]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9.5> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 312.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9.5> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 312.
+ [32] [33] [34
+
+] [35]
+[36] [37] [38] [39] [40] [41] [42]
+Overfull \hbox (7.11885pt too wide) in paragraph at lines 731--774
+[][] 
+ []
+
+[43]
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 804.
+
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 809.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.5> not available
+(Font)              size <7> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.75> not available
+(Font)              size <5> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <7.5> not available
+(Font)              size <7> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <3.75> not available
+(Font)              size <5> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <7.5> not available
+(Font)              size <7> substituted on input line 809.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 809.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7.5> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 815.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7.5> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 815.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 883.
+
+
+Overfull \hbox (0.67784pt too wide) in paragraph at lines 809--898
+ [][] 
+ []
+
+
+Overfull \hbox (0.67784pt too wide) in paragraph at lines 911--998
+ [][] 
+ []
+
+[44] [45] [46] [47
+
+]
+File: ../figures/NSGA-II/ano_DTLZ2_GD.eps Graphic file (type eps)
+ <../figures/NSGA-II/ano_DTLZ2_GD.eps>
+File: ../figures/NSGA-II/ano_DTLZ3_GD.eps Graphic file (type eps)
+
+<../figures/NSGA-II/ano_DTLZ3_GD.eps>
+File: ../figures/NSGA-II/ano_DTLZ4_GD.eps Graphic file (type eps)
+ <../figures/NSGA-II/ano_DTLZ4_GD.eps>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1043--1063
+[][] 
+ []
+
+File: ../figures/NSGA-II/ano_DTLZ2_IGD.eps Graphic file (type eps)
+<../figures/NSGA-II/ano_DTLZ2_IGD.eps>
+File: ../figures/NSGA-II/ano_DTLZ3_IGD.eps Graphic file (type eps)
+ <../figures/NSGA-II/ano_DTLZ3_IGD.eps>
+File: ../figures/NSGA-II/ano_DTLZ4_IGD.eps Graphic file (type eps)
+
+<../figures/NSGA-II/ano_DTLZ4_IGD.eps>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1069--1089
+[][] 
+ []
+
+File: ../figures/NSGA-II/modDTLZ2_digi2_double.pdf Graphic file (type pdf)
+<../figures/NSGA-II/modDTLZ2_digi2_double.pdf>
+File: ../figures/NSGA-II/modDTLZ3_digi2_double.pdf Graphic file (type pdf)
+
+<../figures/NSGA-II/modDTLZ3_digi2_double.pdf>
+File: ../figures/NSGA-II/ano_DTLZ4_digi2_double.pdf Graphic file (type pdf)
+
+<../figures/NSGA-II/ano_DTLZ4_digi2_double.pdf>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1094--1115
+[][] 
+ []
+
+File: ../figures/NSGA-II/modDTLZ2_digi16_double.pdf Graphic file (type pdf)
+<../figures/NSGA-II/modDTLZ2_digi16_double.pdf>
+File: ../figures/NSGA-II/modDTLZ3_digi16_double.pdf Graphic file (type pdf)
+
+<../figures/NSGA-II/modDTLZ3_digi16_double.pdf>
+File: ../figures/NSGA-II/ano_DTLZ4_digi16_double.pdf Graphic file (type pdf)
+
+<../figures/NSGA-II/ano_DTLZ4_digi16_double.pdf>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1118--1141
+[][] 
+ []
+
+[48
+
+]
+Overfull \hbox (0.67784pt too wide) in paragraph at lines 1175--1264
+ [][] 
+ []
+
+
+Overfull \hbox (0.67784pt too wide) in paragraph at lines 1278--1368
+ [][] 
+ []
+
+[49
+
+] [50] [51]
+File: ../figures/MOEAD/DTLZ2_GD.eps Graphic file (type eps)
+ <../figures/MOEAD/DTLZ2_GD.eps>
+File: ../figures/MOEAD/DTLZ3_GD.eps Graphic file (type eps)
+ <../figures/MOEAD/DTLZ3_GD.eps>
+File: ../figures/MOEAD/DTLZ4_GD.eps Graphic file (type eps)
+
+<../figures/MOEAD/DTLZ4_GD.eps>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1411--1431
+[][] 
+ []
+
+File: ../figures/MOEAD/DTLZ2_IGD.eps Graphic file (type eps)
+<../figures/MOEAD/DTLZ2_IGD.eps>
+File: ../figures/MOEAD/DTLZ3_IGD.eps Graphic file (type eps)
+ <../figures/MOEAD/DTLZ3_IGD.eps>
+File: ../figures/MOEAD/DTLZ4_IGD.eps Graphic file (type eps)
+
+<../figures/MOEAD/DTLZ4_IGD.eps>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1436--1456
+[][] 
+ []
+
+File: ../figures/MOEAD/DTLZ2_digi2_double.pdf Graphic file (type pdf)
+<../figures/MOEAD/DTLZ2_digi2_double.pdf>
+File: ../figures/MOEAD/DTLZ3_digi2_double.pdf Graphic file (type pdf)
+
+<../figures/MOEAD/DTLZ3_digi2_double.pdf>
+File: ../figures/MOEAD/DTLZ4_digi2_double.pdf Graphic file (type pdf)
+
+<../figures/MOEAD/DTLZ4_digi2_double.pdf>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1461--1482
+[][] 
+ []
+
+File: ../figures/MOEAD/DTLZ2_digi16_double.pdf Graphic file (type pdf)
+<../figures/MOEAD/DTLZ2_digi16_double.pdf>
+File: ../figures/MOEAD/DTLZ3_digi16_double.pdf Graphic file (type pdf)
+
+<../figures/MOEAD/DTLZ3_digi16_double.pdf>
+File: ../figures/MOEAD/DTLZ4_digi16_double.pdf Graphic file (type pdf)
+
+<../figures/MOEAD/DTLZ4_digi16_double.pdf>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1485--1510
+[][] 
+ []
+
+File: ../figures/MOEAD/DTLZ2_another_GD.eps Graphic file (type eps)
+<../figures/MOEAD/DTLZ2_another_GD.eps>
+File: ../figures/MOEAD/DTLZ3_another_GD.eps Graphic file (type eps)
+
+<../figures/MOEAD/DTLZ3_another_GD.eps>
+File: ../figures/MOEAD/DTLZ4_another_GD.eps Graphic file (type eps)
+
+<../figures/MOEAD/DTLZ4_another_GD.eps>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1513--1533
+[][] 
+ []
+
+File: ../figures/MOEAD/DTLZ2_another_IGD.eps Graphic file (type eps)
+<../figures/MOEAD/DTLZ2_another_IGD.eps>
+File: ../figures/MOEAD/DTLZ3_another_IGD.eps Graphic file (type eps)
+
+<../figures/MOEAD/DTLZ3_another_IGD.eps>
+File: ../figures/MOEAD/DTLZ4_another_IGD.eps Graphic file (type eps)
+
+<../figures/MOEAD/DTLZ4_another_IGD.eps>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1538--1558
+[][] 
+ []
+
+File: ../figures/MOEAD/DTLZ2_another_digi2_double.pdf Graphic file (type pdf)
+<../figures/MOEAD/DTLZ2_another_digi2_double.pdf>
+File: ../figures/MOEAD/DTLZ3_another_digi2_double.pdf Graphic file (type pdf)
+
+<../figures/MOEAD/DTLZ3_another_digi2_double.pdf>
+File: ../figures/MOEAD/DTLZ4_another_digi2_double.pdf Graphic file (type pdf)
+
+<../figures/MOEAD/DTLZ4_another_digi2_double.pdf>
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1563--1584
+[][] 
+ []
+
+File: ../figures/MOEAD/DTLZ2_another_digi16_double.pdf Graphic file (type pdf)
+<../figures/MOEAD/DTLZ2_another_digi16_double.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 1592--1592
+\JY1/mc/m/n/10.95 における非劣解の分布
+ []
+
+File: ../figures/MOEAD/DTLZ3_another_digi16_double.pdf Graphic file (type pdf)
+<../figures/MOEAD/DTLZ3_another_digi16_double.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 1599--1599
+\JY1/mc/m/n/10.95 における非劣解の分布
+ []
+
+File: ../figures/MOEAD/DTLZ4_another_digi16_double.pdf Graphic file (type pdf)
+<../figures/MOEAD/DTLZ4_another_digi16_double.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 1606--1606
+\JY1/mc/m/n/10.95 における非劣解の分布
+ []
+
+
+Overfull \hbox (2.2377pt too wide) in paragraph at lines 1587--1610
+[][] 
+ []
+
+[52
+
+] [53] [54] [55
+
+]) (../sections/proposal.tex [56]
+第 5 章
+File: ../figures/sparse_distribution.eps Graphic file (type eps)
+<../figures/sparse_distribution.eps>
+File: ../figures/dense_distribution.eps Graphic file (type eps)
+ <../figures/dense_distribution.eps>
+Overfull \hbox (7.11884pt too wide) in paragraph at lines 21--35
+[][] 
+ []
+
+[57
+
+] [58] [59]
+File: ../figures/mitsu_2.eps Graphic file (type eps)
+ <../figures/mitsu_2.eps>
+File: ../figures/KDE_hist.eps Graphic file (type eps)
+ <../figures/KDE_hist.eps>
+File: ../figures/KDE_hist_discretization.eps Graphic file (type eps)
+
+<../figures/KDE_hist_discretization.eps>
+Overfull \hbox (11.38441pt too wide) in paragraph at lines 113--129
+ [][] 
+ []
+
+[60]) (../sections/result.tex [61]
+第 6 章
+[62
+
+] [63]
+Overfull \hbox (8.82138pt too wide) in paragraph at lines 99--140
+ [][] 
+ []
+
+[64
+
+]
+Overfull \hbox (8.41124pt too wide) in paragraph at lines 200--211
+ [] 
+ []
+
+[65] [66
+
+] [67] [68] [69] [70] [71] [72] [73] [74]
+File: ../figures/DTLZ3_GD.eps Graphic file (type eps)
+ <../figures/DTLZ3_GD.eps>
+File: ../figures/DTLZ3_IGD.eps Graphic file (type eps)
+
+<../figures/DTLZ3_IGD.eps>
+Overfull \hbox (7.11884pt too wide) in paragraph at lines 645--657
+[][] 
+ []
+
+File: ../figures/dtlz3_sd_double.pdf Graphic file (type pdf)
+<../figures/dtlz3_sd_double.pdf>
+File: ../figures/dtlz3_kde_double.pdf Graphic file (type pdf)
+ <../figures/dtlz3_kde_double.pdf>
+File: ../figures/dtlz3_uc_double.pdf Graphic file (type pdf)
+
+<../figures/dtlz3_uc_double.pdf>
+Overfull \hbox (15.0344pt too wide) in paragraph at lines 660--680
+[][] 
+ []
+
+File: ../figures/DTLZ3_digit_trend.eps Graphic file (type eps)
+<../figures/DTLZ3_digit_trend.eps>
+Underfull \hbox (badness 2799) in paragraph at lines 689--689
+[]\JY1/mc/m/n/10.95 図 \OT1/cmr/m/n/10.95 6.2.4: SD \JY1/mc/m/n/10.95 を用いた
+場合の
+ []
+
+File: ../figures/DTLZ3_var1_pdf_trend.eps Graphic file (type eps)
+<../figures/DTLZ3_var1_pdf_trend.eps>
+File: ../figures/color_bar.eps Graphic file (type eps)
+ <../figures/color_bar.eps>
+File: ../figures/DTLZ3_var10_pdf_trend.eps Graphic file (type eps)
+
+<../figures/DTLZ3_var10_pdf_trend.eps>
+File: ../figures/color_bar.eps Graphic file (type eps)
+ <../figures/color_bar.eps> [75
+
+]
+File: ../figures/WFG7_GD.eps Graphic file (type eps)
+
+<../figures/WFG7_GD.eps>
+File: ../figures/WFG7_IGD.eps Graphic file (type eps)
+ <../figures/WFG7_IGD.eps>
+Overfull \hbox (7.11884pt too wide) in paragraph at lines 739--751
+[][] 
+ []
+
+File: ../figures/WFG7_sd_double.pdf Graphic file (type pdf)
+<../figures/WFG7_sd_double.pdf>
+File: ../figures/WFG7_kde_double.pdf Graphic file (type pdf)
+ <../figures/WFG7_kde_double.pdf>
+File: ../figures/WFG7_uc_double.pdf Graphic file (type pdf)
+
+<../figures/WFG7_uc_double.pdf>
+Overfull \hbox (15.0344pt too wide) in paragraph at lines 754--774
+[][] 
+ []
+
+File: ../figures/WFG7_digit_trend.eps Graphic file (type eps)
+<../figures/WFG7_digit_trend.eps>
+Underfull \hbox (badness 2799) in paragraph at lines 783--783
+[]\JY1/mc/m/n/10.95 図 \OT1/cmr/m/n/10.95 6.2.9: SD \JY1/mc/m/n/10.95 を用いた
+場合の
+ []
+
+File: ../figures/WFG7_var1_pdf_trend.eps Graphic file (type eps)
+<../figures/WFG7_var1_pdf_trend.eps>
+File: ../figures/color_bar_100ver.eps Graphic file (type eps)
+ <../figures/color_bar_100ver.eps>
+File: ../figures/WFG7_var8_pdf_trend.eps Graphic file (type eps)
+
+<../figures/WFG7_var8_pdf_trend.eps>
+File: ../figures/color_bar_100ver.eps Graphic file (type eps)
+ <../figures/color_bar_100ver.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[76
+
+] [77] [78
+
+]
+File: ../figures/multi_DTLZ4_GD.eps Graphic file (type eps)
+ <../figures/multi_DTLZ4_GD.eps>
+File: ../figures/multi_DTLZ4_IGD.eps Graphic file (type eps)
+
+<../figures/multi_DTLZ4_IGD.eps>
+Overfull \hbox (7.11884pt too wide) in paragraph at lines 861--873
+[][] 
+ []
+
+File: ../figures/multidtlz4_sd_double.pdf Graphic file (type pdf)
+<../figures/multidtlz4_sd_double.pdf>
+File: ../figures/multidtlz4_kde_double.pdf Graphic file (type pdf)
+ <../figures/multidtlz4_kde_double.pdf>
+File: ../figures/multidtlz4_uc_double.pdf Graphic file (type pdf)
+
+<../figures/multidtlz4_uc_double.pdf>
+Overfull \hbox (15.0344pt too wide) in paragraph at lines 876--896
+[][] 
+ []
+
+File: ../figures/multi_DTLZ4_digit_trend.eps Graphic file (type eps)
+<../figures/multi_DTLZ4_digit_trend.eps>
+File: ../figures/multi_DTLZ4_var1_pdf_trend.eps Graphic file (type eps)
+
+<../figures/multi_DTLZ4_var1_pdf_trend.eps>
+File: ../figures/color_bar_100ver.eps Graphic file (type eps)
+ <../figures/color_bar_100ver.eps>
+File: ../figures/multi_DTLZ4_var30_pdf_trend.eps Graphic file (type eps)
+
+<../figures/multi_DTLZ4_var30_pdf_trend.eps>
+File: ../figures/color_bar_100ver.eps Graphic file (type eps)
+ <../figures/color_bar_100ver.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[79
+
+] [80] [81
+
+]
+File: ../figures/multidtlz4_sd_minmax.png Graphic file (type bmp)
+ <../figures/multidtlz4_sd_minmax.png>
+File: ../figures/multidtlz4_epdf_minmax.png Graphic file (type bmp)
+
+<../figures/multidtlz4_epdf_minmax.png>
+File: ../figures/multidtlz4_uc_minmax.png Graphic file (type bmp)
+ <../figures/multidtlz4_uc_minmax.png>
+Overfull \hbox (15.0344pt too wide) in paragraph at lines 959--979
+[][] 
+ []
+
+) (../sections/conclusion.tex [82]
+第 7 章
+[83
+
+]) (../sections/acknow.tex [84]) [85
+
+] (./main.bbl
+
+LaTeX Font Warning: Font shape `JT1/gt/m/it' undefined
+(Font)              using `JT1/gt/m/n' instead on input line 7.
+
+
+LaTeX Font Warning: Font shape `JY1/gt/m/it' undefined
+(Font)              using `JY1/gt/m/n' instead on input line 7.
+
+[86
+
+
+] [87]) [88] (./main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.25pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3863 strings out of 493717
+ 55318 string characters out of 6150720
+ 204512 words of memory out of 5000000
+ 7163 multiletter control sequences out of 15000+600000
+ 43860 words of font info for 174 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 27i,18n,43p,375b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (95 pages, 450968 bytes).

@@ -1,0 +1,65 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.2.1}{\ignorespaces パレート最適解の例}}{5}
+\contentsline {figure}{\numberline {2.4.1}{\ignorespaces 遺伝的アルゴリズム（GA）のフローチャート}}{7}
+\contentsline {figure}{\numberline {2.5.1}{\ignorespaces NSGA-IIにおける進化のイメージ図}}{9}
+\contentsline {figure}{\numberline {2.5.2}{\ignorespaces 混雑距離のイメージ図}}{12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1.1}{\ignorespaces $\epsilon $-dominanceを用いた場合の支配領域の比較}}{16}
+\contentsline {figure}{\numberline {3.2.1}{\ignorespaces 離散化による探索空間のイメージ図}}{18}
+\contentsline {figure}{\numberline {3.2.2}{\ignorespaces DTLZ2-4におけるGDの推移（NSGA-II）}}{20}
+\contentsline {figure}{\numberline {3.2.3}{\ignorespaces DTLZ2-4におけるIGDの推移（NSGA-II）}}{20}
+\contentsline {figure}{\numberline {3.2.4}{\ignorespaces DTLZ2における非劣解の分布（NSGA-II）}}{20}
+\contentsline {figure}{\numberline {3.2.5}{\ignorespaces DTLZ3における非劣解の分布（NSGA-II）}}{20}
+\contentsline {figure}{\numberline {3.2.6}{\ignorespaces DTLZ4における非劣解の分布（NSGA-II）}}{20}
+\contentsline {figure}{\numberline {3.2.7}{\ignorespaces 制御桁数の違いによるSBXの分布比較}}{22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2桁}}}{22}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {16桁}}}{22}
+\contentsline {figure}{\numberline {3.2.8}{\ignorespaces 制御桁数の違いによるpolynomial mutationの分布比較}}{22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2桁}}}{22}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {16桁}}}{22}
+\contentsline {figure}{\numberline {3.2.9}{\ignorespaces SBX，polynominal mutation で得られる子個体の頻度ヒストグラム}}{22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SBX}}}{22}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {polynomial mutation}}}{22}
+\contentsline {figure}{\numberline {3.2.10}{\ignorespaces 2桁，16桁，Modified Methodにおける位置変数$x_1$，$x_2$の累積頻度ヒストグラム}}{24}
+\contentsline {figure}{\numberline {3.2.11}{\ignorespaces Modified MethodにおけるGD，IGDの推移と非劣解集合}}{24}
+\contentsline {figure}{\numberline {3.2.12}{\ignorespaces DRSsのイメージ図}}{25}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1.1}{\ignorespaces $g(\bm {x}_M)$の推移}}{29}
+\contentsline {figure}{\numberline {4.1.2}{\ignorespaces $x$ と$x^ \alpha $の対応}}{30}
+\contentsline {figure}{\numberline {4.2.1}{\ignorespaces Modified DTLZ2-4におけるGDの推移（NSGA-II）}}{48}
+\contentsline {figure}{\numberline {4.2.2}{\ignorespaces Modified DTLZ2-4におけるIGDの推移（NSGA-II）}}{48}
+\contentsline {figure}{\numberline {4.2.3}{\ignorespaces Modified DTLZ2における非劣解の分布（NSGA-II）}}{48}
+\contentsline {figure}{\numberline {4.2.4}{\ignorespaces Modified DTLZ3における非劣解の分布（NSGA-II）}}{48}
+\contentsline {figure}{\numberline {4.2.5}{\ignorespaces Modified DTLZ4における非劣解の分布（NSGA-II）}}{48}
+\contentsline {figure}{\numberline {4.2.6}{\ignorespaces DTLZ2-4におけるGDの推移（MOEA/D）}}{53}
+\contentsline {figure}{\numberline {4.2.7}{\ignorespaces DTLZ2-4におけるIGDの推移（MOEA/D）}}{53}
+\contentsline {figure}{\numberline {4.2.8}{\ignorespaces DTLZ2における非劣解の分布（MOEA/D）}}{53}
+\contentsline {figure}{\numberline {4.2.9}{\ignorespaces DTLZ3における非劣解の分布（MOEA/D）}}{53}
+\contentsline {figure}{\numberline {4.2.10}{\ignorespaces DTLZ4における非劣解の分布（MOEA/D）}}{53}
+\contentsline {figure}{\numberline {4.2.11}{\ignorespaces Modified DTLZ2-4におけるGDの推移（MOEA/D）}}{54}
+\contentsline {figure}{\numberline {4.2.12}{\ignorespaces Modified DTLZ2-4におけるIGDの推移（MOEA/D）}}{54}
+\contentsline {figure}{\numberline {4.2.13}{\ignorespaces Modified DTLZ2における非劣解の分布（MOEA/D）}}{54}
+\contentsline {figure}{\numberline {4.2.14}{\ignorespaces Modified DTLZ3における非劣解の分布（MOEA/D）}}{54}
+\contentsline {figure}{\numberline {4.2.15}{\ignorespaces Modified DTLZ4における非劣解の分布（MOEA/D）}}{54}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.2.1}{\ignorespaces 二変数空間での解の分布状態のイメージ図}}{58}
+\contentsline {figure}{\numberline {5.2.2}{\ignorespaces 推定された確率密度関数の利用}}{61}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.2.1}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のDTLZ3におけるGDの推移}}{75}
+\contentsline {figure}{\numberline {6.2.2}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のDTLZ3におけるIGDの推移}}{75}
+\contentsline {figure}{\numberline {6.2.3}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のDTLZ3における非劣解の分布}}{75}
+\contentsline {figure}{\numberline {6.2.4}{\ignorespaces SDを用いた場合のDTLZ3における各設計変数の分割数の世代ごとの推移}}{75}
+\contentsline {figure}{\numberline {6.2.5}{\ignorespaces ePDFを用いた場合のDTLZ3における推定された確率密度関数の世代ごとの推移}}{75}
+\contentsline {figure}{\numberline {6.2.6}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のWFG7におけるGDの推移}}{77}
+\contentsline {figure}{\numberline {6.2.7}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のWFG7におけるIGDの推移}}{77}
+\contentsline {figure}{\numberline {6.2.8}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のWFG7におけるGDの推移}}{77}
+\contentsline {figure}{\numberline {6.2.9}{\ignorespaces SDを用いた場合のWFG7における各設計変数の分割数の世代ごとの推移}}{77}
+\contentsline {figure}{\numberline {6.2.10}{\ignorespaces ePDFを用いた場合のWFG7における推定された確率密度関数の世代ごとの推移}}{77}
+\contentsline {figure}{\numberline {6.2.11}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のMulti DTLZ4におけるGDの推移}}{80}
+\contentsline {figure}{\numberline {6.2.12}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のModified DTLZ4におけるIGDの推移}}{80}
+\contentsline {figure}{\numberline {6.2.13}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のModified DTLZ4における非劣解の分布}}{80}
+\contentsline {figure}{\numberline {6.2.14}{\ignorespaces The transition of division number in WFG7.}}{80}
+\contentsline {figure}{\numberline {6.2.15}{\ignorespaces ePDFを用いた場合のMulti DTLZ4における推定された確率密度関数の世代ごとの推移}}{80}
+\contentsline {figure}{\numberline {6.2.16}{\ignorespaces 適応的離散化手法を用いた場合と用いない場合のMulti DTLZ4におけるIGDの最大値と最小値の推移}}{82}
+\addvspace {10\p@ }

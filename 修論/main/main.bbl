@@ -1,0 +1,127 @@
+\begin{thebibliography}{10}
+
+\bibitem{Chiba2005}
+K.~Chiba, S.~Obayashi, K.~Nakahashi, and H.~Morino.
+\newblock High-fidelity multidisciplinary design optimization of aerostructural
+  wing shape for regional jet.
+\newblock In {\em AIAA-2005-5080}, 2005.
+
+\bibitem{Oyama2010}
+A.~Oyama, T.~Nonomura, and K.~Fujii.
+\newblock Data mining of pareto-optimal transonic airfoil shapes using proper
+  orthogonal decomposition.
+\newblock {\em Journal of Aircraft}, 47:1756--1762, 2010.
+
+\bibitem{近藤2015}
+近藤 俊樹, 立川 智章, 大山 聖, 渡辺 毅, and 藤井 孝藏.
+\newblock 実数値gaにおける設計変数の有効桁数の影響評価.
+\newblock {\em 第9回 進化計算学会研究会}, pages 166--174, 2015.
+
+\bibitem{Deb2002Fast}
+K.~Deb, A.~Pratap, S.~Agarwal, and T.~Meyarivan.
+\newblock A fast and elitist multiobjective genetic algorithm: {NSGA-II}.
+\newblock {\em IEEE Transactions on Evolutionary Computation}, 6(2):182--197,
+  April 2002.
+
+\bibitem{Zhang2007MOEAD}
+Qingfu Zhang and Hui Li.
+\newblock {MOEA/D}: A multiobjective evolutionary algorithm based on
+  decomposition.
+\newblock {\em {IEEE} Transactions on Evolutionary Computation},
+  11(6):712--731, 2007.
+
+\bibitem{Srinivas1994muiltiobjective}
+Nidamarthi Srinivas and Kalyanmoy Deb.
+\newblock Muiltiobjective optimization using nondominated sorting in genetic
+  algorithms.
+\newblock {\em Evolutionary computation}, 2(3):221--248, 1994.
+
+\bibitem{Agrawal1995simulated}
+Ram~Bhusan Agrawal, Kalyanmoy Deb, and Ram~Bhushan Agrawal.
+\newblock Simulated binary crossover for continuous search space.
+\newblock {\em Complex systems}, 9(2):115--148, 1995.
+
+\bibitem{Deb1996combined}
+Kalyanmoy Deb and Mayank Goyal.
+\newblock A combined genetic adaptive search (geneas) for engineering design.
+\newblock {\em Computer Science and informatics}, 26:30--45, 1996.
+
+\bibitem{Zhou2006combining}
+Aimin Zhou, Yaochu Jin, Qingfu Zhang, Bernhard Sendhoff, and Edward Tsang.
+\newblock Combining model-based and genetics-based offspring generation for
+  multi-objective optimization using a convergence criterion.
+\newblock In {\em Evolutionary Computation, 2006. CEC 2006. IEEE Congress on},
+  pages 892--899. IEEE, 2006.
+
+\bibitem{Laumanns2002Combining}
+Marco Laumanns, Lothar Thiele, Kalyanmoy Deb, and Eckart Zitzler.
+\newblock Combining convergence and diversity in evolutionary multiobjective
+  optimization.
+\newblock {\em Evolutionary Computation}, 10(3):263--282, September 2002.
+
+\bibitem{Ishibuchi2012Effects}
+Hisao Ishibuchi, Masakazu Yamane, and Yusuke Nojima.
+\newblock Effects of discrete objective functions with different granularities
+  on the search behavior of {EMO} algorithms.
+\newblock In {\em Proceedings of the 14th Annual Conference on Genetic and
+  Evolutionary Computation}, GECCO '12, pages 481--488, 2012.
+
+\bibitem{Jaimes2005MRMOGA}
+A.~Lopez Jaimes and C.~A.~Coello Coello.
+\newblock {MRMOGA}: parallel evolutionary multiobjective optimization using
+  multiple resolutions.
+\newblock In {\em Proceedings of IEEE Congress on Evolutionary Computation},
+  volume~3, pages 2294--2301, September 2005.
+
+\bibitem{Kim2005Variable}
+I.Y. Kim and O.L. de~Weck.
+\newblock Variable chromosome length genetic algorithm for progressive
+  refinement in topology optimization.
+\newblock {\em Structural and Multidisciplinary Optimization}, 29(6):445, June
+  2005.
+
+\bibitem{Ikeda2001Failure}
+K.~Ikeda, H.~Kita, and S.~Kobayashi.
+\newblock Failure of pareto-based moeas: does non-dominated really mean near to
+  optimal?
+\newblock In {\em Proceedings of IEEE Congress on Evolutionary Computation},
+  volume~2, pages 957--962, 2001.
+
+\bibitem{Huband2006AReview}
+S.~Huband, P.~Hingston, L.~Barone, and L.~While.
+\newblock A review of multiobjective test problems and a scalable test problem
+  toolkit.
+\newblock {\em IEEE Transactions on Evolutionary Computation}, 10(5):477--506,
+  October 2006.
+
+\bibitem{Deb2002Scalable}
+K.~Deb, L.~Thiele, M.~Laumanns, and E.~Zitzler.
+\newblock Scalable multi-objective optimization test problems.
+\newblock In {\em Proceedings of IEEE Congress on Evolutionary Computation CEC
+  '02}, volume~1, pages 825--830, May 2002.
+
+\bibitem{Zhang2008Multiobjective}
+Qingfu Zhang, Aimin Zhou, Shizheng Zhao, Ponnuthurai~Nagaratnam Suganthan,
+  Wudong Liu, and Santosh Tiwari.
+\newblock Multiobjective optimization test instances for the cec 2009 special
+  session and competition.
+\newblock {\em University of Essex, Colchester, UK and Nanyang technological
+  University, Singapore, special session on performance assessment of
+  multi-objective optimization algorithms, technical report}, 264, 2008.
+
+\bibitem{Jain2014Evolutionary2}
+Himanshu Jain and Kalyamoy Deb.
+\newblock An evolutionary many-objective optimization algorithm using
+  reference-point based nondominated sorting approach, part {II}: Handling
+  constraints and extending to an adaptive approach.
+\newblock {\em IEEE Transactions on Evolutionary Computation}, 18(4):602--622,
+  August 2014.
+
+\bibitem{Deb2006Reference}
+Kalyanmoy Deb and J~Sundar.
+\newblock Reference point based multi-objective optimization using evolutionary
+  algorithms.
+\newblock In {\em Proceedings of the 8th annual conference on Genetic and
+  evolutionary computation}, pages 635--642. ACM, 2006.
+
+\end{thebibliography}

@@ -1,0 +1,1024 @@
+% This file was created with JabRef 2.10.
+% Encoding: SJIS
+
+
+@InProceedings{林2009,
+  Title                    = {確率モデルを用いたテンソル因子化法の拡張に関するサーベイ},
+  Author                   = {林,浩平 and 池田,和司},
+  Booktitle                = {データマイニングと統計数理研究会（第 11 回）},
+  Year                     = {2009},
+
+  File                     = {林2009.pdf:data\\林2009.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.04.18}
+}
+
+@InBook{Koza2003,
+  Title                    = {発明家に追いついた遺伝的プログラミング},
+  Author                   = {John R. Koza and Martin A. Keane and Matthew J. Streeter},
+  Pages                    = {72-81},
+  Publisher                = {日経サイエンス},
+  Year                     = {2003},
+  Month                    = {5月号},
+  Number                   = {5},
+  Volume                   = {33},
+
+  File                     = {Koza2003.pdf:Koza2003.pdf:PDF;Koza2003.pdf:data\\Koza2003.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2011.05.30}
+}
+
+@InProceedings{三田2001,
+  Title                    = {遺伝的プログラミングを用いた脱出問題の解法},
+  Author                   = {三田英之 and 石塚満 and 伊庭斉志},
+  Booktitle                = {「マルチ・エージェントと協調計算」ワークショップ(MACC 2000)論文集},
+  Year                     = {2001},
+  Organization             = {第9回マルチ・エージェントと協調計算ワークショッププログラム委員会},
+  Publisher                = {日本ソフトウェア科学会マルチ・エージェントと協調計算研究会 [著] ; 松原繁夫 編},
+
+  File                     = {三田2001.pdf:data\\三田2001.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.04.17}
+}
+
+@Article{下山2012,
+  Title                    = {多目的最適化におけるKriging応答曲面法のためのサンプル追加指標の比較},
+  Author                   = {下山 幸治 and 鄭 信圭 and 大林 茂},
+  Journal                  = {進化計算学会論文誌},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {173-184},
+  Volume                   = {3},
+
+  File                     = {下山2012.pdf:data\\下山2012.pdf:PDF;下山2012.pdf:下山2012.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.02.01}
+}
+
+@Book{中山2008,
+  Title                    = {多目的最適化と工学設計-しなやかシステム工学アプローチ-},
+  Author                   = {中山 弘隆 and 岡部 達哉 and 荒川 雅生 and 尹 禮分},
+  Publisher                = {現代図書},
+  Year                     = {2008},
+
+  Owner                    = {tatsukawa},
+  Timestamp                = {2011.05.29}
+}
+
+@InProceedings{丹治2009,
+  Title                    = {木構造断片のランダムサンプリングによるプログラム進化},
+  Author                   = {丹治 信 and 伊庭 斉志},
+  Booktitle                = {人工知能学会全国大会論文集},
+  Year                     = {2009},
+
+  File                     = {丹治2009.pdf:丹治2009.pdf:PDF;丹治2009.pdf:data\\丹治2009.pdf:PDF},
+  Timestamp                = {2010.05.02}
+}
+
+@InProceedings{伊庭2010a,
+  Title                    = {Differential Evolution を用いた外国為替取引システム},
+  Author                   = {今川哲矢 and 伊庭斉志},
+  Booktitle                = {第5回進化計算フロンティア研究会},
+  Year                     = {2010},
+
+  File                     = {伊庭2010a.pdf:伊庭2010a.pdf:PDF;伊庭2010a.pdf:data\\伊庭2010a.pdf:PDF},
+  Timestamp                = {2011.05.26}
+}
+
+@Article{伊庭2010,
+  Title                    = {GPの過去，現在，未来},
+  Author                   = {伊庭 斉志},
+  Journal                  = {進化計算学会論文誌},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {23-31},
+  Volume                   = {1},
+
+  File                     = {伊庭2010.pdf:data\\伊庭2010.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.03.28}
+}
+
+@Article{伊庭2008,
+  Title                    = {進化的コンピューティング},
+  Author                   = {伊庭 斉志},
+  Journal                  = {Journal of Japanese Society for Artificial Intelligence},
+  Year                     = {2008},
+  Number                   = {4},
+  Pages                    = {559-568},
+  Volume                   = {23},
+
+  File                     = {伊庭2008.pdf:伊庭2008.pdf:PDF;伊庭2008.pdf:data\\伊庭2008.pdf:PDF},
+  ISSN                     = {09128085},
+  Owner                    = {tatsukawa},
+  Publisher                = {The,Japanese Society for Artificial Intelligence},
+  Url                      = {http://ci.nii.ac.jp/naid/110006812852/en/}
+}
+
+@Book{伊庭2001,
+  Title                    = {遺伝的プログラミング入門},
+  Author                   = {伊庭 斉志},
+  Publisher                = {東京大学出版会, 東京},
+  Year                     = {2001},
+
+  Owner                    = {tatsukawa}
+}
+
+@Article{伊庭2000,
+  Title                    = {遺伝的プログラミングと進化論的計算手法},
+  Author                   = {伊庭 斉志},
+  Journal                  = {電子情報通信学会技術研究報告. AI, 人工知能と知識処理},
+  Year                     = {2000},
+  Number                   = {88},
+  Pages                    = {53-60},
+  Volume                   = {100},
+
+  File                     = {伊庭2000.pdf:伊庭2000.pdf:PDF;伊庭2000.pdf:data\\伊庭2000.pdf:PDF},
+  ISSN                     = {09135685},
+  Owner                    = {tatsukawa},
+  Publisher                = {社団法人電子情報通信学会},
+  Url                      = {http://ci.nii.ac.jp/naid/110003187155/}
+}
+
+@Article{伊庭1995,
+  Title                    = {システム同定アプローチに基づく遺伝的プログラミング},
+  Author                   = {伊庭 斉志 and 佐藤 泰介},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {1995},
+  Number                   = {4},
+  Pages                    = {590--600},
+  Volume                   = {10},
+
+  File                     = {伊庭1995.pdf:伊庭1995.pdf:PDF;伊庭1995.pdf:data\\伊庭1995.pdf:PDF},
+  Owner                    = {tatsukawa}
+}
+
+@Article{元木2006,
+  Title                    = {遺伝的プログラミングでの多様性維持について},
+  Author                   = {元木 達也 and 沼口 靖},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {2006},
+  Number                   = {3},
+  Pages                    = {219-230},
+  Volume                   = {21},
+
+  File                     = {元木2006.pdf:元木2006.pdf:PDF;元木2006.pdf:data\\元木2006.pdf:PDF},
+  Owner                    = {tatsukawa}
+}
+
+@Article{北山2009,
+  Title                    = {多目的最適設計におけるトレードオフ分析法},
+  Author                   = {北山哲士 and 山崎光悦 and 荒川雅生 and 山川宏},
+  Year                     = {2009},
+
+  File                     = {北山2009.pdf:北山2009.pdf:PDF;北山2009.pdf:data\\北山2009.pdf:PDF},
+  ISSN                     = {0387-5024}
+}
+
+@InProceedings{大山2009,
+  Title                    = {固有直交分解を用いたパレート最適遷音速翼型のデータマイニング},
+  Author                   = {大山 聖 and 野々村 拓 and 藤井 孝藏},
+  Booktitle                = {日本航空宇宙学会北部支部２００９年講演会/第１０回再使用型宇宙推進系シンポジウム講演論文集},
+  Year                     = {2009},
+
+  File                     = {大山2009.pdf:大山2009.pdf:PDF;大山2009.pdf:data\\大山2009.pdf:PDF},
+  Timestamp                = {2009.03.17}
+}
+
+@InProceedings{大山2008,
+  Title                    = {多目的空力形状最適化問題のパレート最適解の固有直交分解を用いた分析法の提案},
+  Author                   = {大山 聖 and 野々村 拓 and 藤井 孝藏},
+  Booktitle                = {進化計算シンポジウム2008講演集},
+  Year                     = {2008},
+
+  File                     = {大山2008.pdf:大山2008.pdf:PDF;大山2008.pdf:data\\大山2008.pdf:PDF},
+  Timestamp                = {2009.02.10}
+}
+
+@Article{大山2011,
+  Title                    = {火星探査飛行機の多目的設計探査},
+  Author                   = {大山聖 and 米本浩一 and 竹内伸介 and 得竹浩 and 永井大樹 and 砂田茂},
+  Journal                  = {第 55 回宇宙科学技術連合講演会, JSASS-2011-4331},
+  Year                     = {2011},
+
+  Owner                    = {kondoh},
+  Timestamp                = {2015.08.28}
+}
+
+@InProceedings{大林2007,
+  Title                    = {ラフ集合による設計空間特徴抽出},
+  Author                   = {大林 茂},
+  Booktitle                = {科研費シンポ},
+  Year                     = {2007},
+  Month                    = {1},
+
+  File                     = {大林2007.pdf:大林2007.pdf:PDF;大林2007.pdf:data\\大林2007.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.07.22}
+}
+
+@InProceedings{大林2006,
+  Title                    = {ラフ集合による多目的最適化データマイニング（改訂版）},
+  Author                   = {大林 茂},
+  Booktitle                = {科研費シンポ},
+  Year                     = {2006},
+  Month                    = {1},
+
+  File                     = {大林2006.pdf:大林2006.pdf:PDF;大林2006.pdf:data\\大林2006.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.05.21}
+}
+
+@InProceedings{大林2006a,
+  Title                    = {多目的最適化とデータマイニング},
+  Author                   = {大林 茂},
+  Booktitle                = {機械学会年次大会},
+  Year                     = {2006},
+
+  File                     = {大林2006a.pdf:大林2006a.pdf:PDF;大林2006a.pdf:data\\大林2006a.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.07.22}
+}
+
+@InProceedings{大林2005,
+  Title                    = {多目的最適化と情報可視化データマイニング},
+  Author                   = {大林 茂},
+  Booktitle                = {豊田研究報告},
+  Year                     = {2005},
+  Month                    = {5},
+  Pages                    = {109-116},
+
+  File                     = {大林2005.pdf:大林2005.pdf:PDF;大林2005.pdf:data\\大林2005.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.07.22}
+}
+
+@InProceedings{大林2004,
+  Title                    = {流れの最適化とソフトコンピューティング},
+  Author                   = {大林 茂},
+  Booktitle                = {日本機械学会年次大会},
+  Year                     = {2004},
+
+  File                     = {大林2004.pdf:大林2004.pdf:PDF;大林2004.pdf:data\\大林2004.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.07.22}
+}
+
+@InProceedings{大林2003,
+  Title                    = {航空機の多目的最適設計},
+  Author                   = {大林 茂},
+  Booktitle                = {人工知能学会誌},
+  Year                     = {2003},
+  Number                   = {5},
+  Pages                    = {495-501},
+  Volume                   = {18},
+
+  File                     = {大林2003.pdf:大林2003.pdf:PDF;大林2003.pdf:data\\大林2003.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.07.22}
+}
+
+@InProceedings{大林2002,
+  Title                    = {CFD利用の新段階-数値最適化},
+  Author                   = {大林 茂},
+  Booktitle                = {日本機械学会誌},
+  Year                     = {2002},
+  Number                   = {999},
+  Pages                    = {64-69},
+  Volume                   = {105},
+
+  File                     = {大林2002.pdf:大林2002.pdf:PDF;大林2002.pdf:data\\大林2002.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.07.22}
+}
+
+@InProceedings{大林2001,
+  Title                    = {多目的最適化とパレート解の可視化},
+  Author                   = {大林 茂},
+  Booktitle                = {計算力学講演会講演論文集},
+  Year                     = {2001},
+  Number                   = {14},
+  Pages                    = {699-700},
+  Volume                   = {2001},
+
+  File                     = {大林2001.pdf:大林2001.pdf:PDF;大林2001.pdf:data\\大林2001.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.07.22}
+}
+
+@InProceedings{大林1999,
+  Title                    = {超音速と遷音速巡航の多目的空力最適化},
+  Author                   = {大林 茂 and 佐々木 大輔 and 竹口幸宏},
+  Booktitle                = {Dynamics and Design Conference '99 講演論文},
+  Year                     = {1999},
+  Organization             = {日本機械学会},
+
+  File                     = {大林1999.pdf:大林1999.pdf:PDF;大林1999.pdf:data\\大林1999.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.08}
+}
+
+@InProceedings{大林1998,
+  Title                    = {多目的GA による超音速旅客機主翼の複合最適設計},
+  Author                   = {大林 茂 and 竹口 幸宏},
+  Booktitle                = {機械力学・計測制御講演論文集},
+  Year                     = {1998},
+  Organization             = {日本機械学会},
+
+  File                     = {大林1998.pdf:大林1998.pdf:PDF;大林1998.pdf:data\\大林1998.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.08}
+}
+
+@InProceedings{大林2008,
+  Title                    = {非定常流れのデータマイニング},
+  Author                   = {大林 茂 and 鄭 信圭},
+  Booktitle                = {科研費シンポジウム講演集},
+  Year                     = {2008},
+
+  File                     = {大林2008.pdf:大林2008.pdf:PDF;大林2008.pdf:data\\大林2008.pdf:PDF},
+  Timestamp                = {2008.08.06}
+}
+
+@MastersThesis{安藤2013,
+  Title                    = {多様な設計目的に対する遷音速翼型の空力最適化},
+  Author                   = {安藤喜紀},
+  School                   = {東北大学},
+  Year                     = {2013},
+
+  File                     = {安藤2013.pdf:data\\安藤2013.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.03.05}
+}
+
+@InProceedings{寺本1999,
+  Title                    = {周波数フィルタを用いた周期現象の可視化},
+  Author                   = {寺本 進 and 藤井 孝藏},
+  Booktitle                = {第13回数値流体力学シンポジウム論文集},
+  Year                     = {1999},
+
+  File                     = {寺本1999.pdf:寺本1999.pdf:PDF;寺本1999.pdf:data\\寺本1999.pdf:PDF},
+  Owner                    = {shimizu},
+  Timestamp                = {2008.12.24}
+}
+
+@InProceedings{小川2005,
+  Title                    = {遺伝的プログラミングによる動画像処理アルゴリズムの獲得},
+  Author                   = {小川 原也 and 喜瀬 勝之 and 長尾 智晴},
+  Booktitle                = {人工知能学会全国大会(第19回)論文集},
+  Year                     = {2005},
+
+  File                     = {小川2005.pdf:小川2005.pdf:PDF;小川2005.pdf:data\\小川2005.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.15}
+}
+
+@Article{小林2009,
+  Title                    = {実数値 GA のフロンティア},
+  Author                   = {小林重信},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {2009},
+  Number                   = {1},
+  Pages                    = {147--162},
+  Volume                   = {24},
+
+  __markedentry            = {[kondoh:6]},
+  Owner                    = {kondoh},
+  Publisher                = {The Japanese Society for Artificial Intelligence},
+  Timestamp                = {2015.08.27}
+}
+
+@Article{小野2000,
+  Title                    = {実数値 GA とその応用},
+  Author                   = {小野功 and 山村雅幸 and 喜多一},
+  Journal                  = {人工知能学会誌},
+  Year                     = {2000},
+  Number                   = {2},
+  Pages                    = {259--266},
+  Volume                   = {15},
+
+  __markedentry            = {[kondoh:6]},
+  Owner                    = {kondoh},
+  Publisher                = { },
+  Timestamp                = {2015.08.27}
+}
+
+@MastersThesis{岡部2005,
+  Title                    = {羽ばたき運動に関する空気力学的考察~火星航空機への適用にむけて~},
+  Author                   = {岡部能幸},
+  School                   = {東京大学大学院},
+  Year                     = {2005},
+
+  File                     = {岡部2005.pdf:岡部2005.pdf:PDF;岡部2005.pdf:data\\岡部2005.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.14}
+}
+
+@Article{岩崎2012,
+  Title                    = {テンソル分解型自己組織化マップの開発: 非線形テンソル分解の実現 (一般, 複雑系とニューロコンピューティング)},
+  Author                   = {岩崎亘 and 和田沙織 and 古川徹生},
+  Journal                  = {電子情報通信学会技術研究報告. NC, ニューロコンピューティング},
+  Year                     = {2012},
+  Number                   = {419},
+  Pages                    = {101--106},
+  Volume                   = {111},
+
+  File                     = {岩崎2012.pdf:data\\岩崎2012.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Publisher                = {一般社団法人電子情報通信学会},
+  Timestamp                = {2013.04.18}
+}
+
+@Article{廣安2000,
+  Title                    = {領域分割型多目的遺伝的アルゴリズム},
+  Author                   = {廣安知之 and 三木光範 and 渡邉真也},
+  Journal                  = {情報処理学会論文誌},
+  Year                     = {2000},
+  Pages                    = {79--89},
+  Volume                   = {41},
+
+  File                     = {data\\廣安2000a.pdf:data\\廣安2000a.pdf:PDF;廣安2000.pdf:data\\廣安2000.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.04.17}
+}
+
+@Article{廣安2002,
+  Title                    = {多目的遺伝的アルゴリズムにおける各手法の比較},
+  Author                   = {廣安知之 and 三木光範 and 渡邊真也},
+  Journal                  = {同志社大学理工学研究報告},
+  Year                     = {2002},
+  Number                   = {1},
+  Pages                    = {41--52},
+  Volume                   = {43},
+
+  File                     = {廣安2002.pdf:data\\廣安2002.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Publisher                = {同志社大学},
+  Timestamp                = {2013.04.17}
+}
+
+@MastersThesis{Honda2012,
+  Title                    = {斜め平板に衝突する超音速ジェットにおける音響場に対する平板角度の効果},
+  Author                   = {本多宏徳},
+  School                   = {東京理科大学},
+  Year                     = {2012},
+
+  File                     = {Honda2012.pdf:Honda2012.pdf:PDF;Honda2012.pdf:data\\Honda2012.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.01.30}
+}
+
+@Article{杉本2004,
+  Title                    = {遺伝的プログラミングによる微分方程式系の推定},
+  Author                   = {杉本 直也 and 坂本 栄里奈 and 伊庭 斉志},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {2004},
+  Number                   = {6},
+  Pages                    = {450-459},
+  Volume                   = {19},
+
+  File                     = {杉本2004.pdf:杉本2004.pdf:PDF;杉本2004.pdf:data\\杉本2004.pdf:PDF}
+}
+
+@Article{松居2000レンズ,
+  Title                    = {レンズ自動設計における最適化技術 (< 特集> 企業事例)},
+  Author                   = {松居寛},
+  Journal                  = {オペレーションズ・リサーチ: 経営の科学},
+  Year                     = {2000},
+  Number                   = {8},
+  Pages                    = {382--387},
+  Volume                   = {45},
+
+  File                     = {松居2000レンズ.pdf:data\\松居2000レンズ.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Publisher                = {社団法人日本オペレーションズ・リサーチ学会},
+  Timestamp                = {2013.04.17}
+}
+
+@Article{松村2006a,
+  Title                    = {遺伝的プログラミング手法に基づくエージェントベーストレーダモデル(知識処理)},
+  Author                   = {松村 幸輝 and 国屋 美敬 and 木村 周平},
+  Journal                  = {情報処理学会論文誌},
+  Year                     = {2006},
+  Number                   = {9},
+  Pages                    = {2869-2886},
+  Volume                   = {47},
+
+  File                     = {松村2006a.pdf:松村2006a.pdf:PDF;松村2006a.pdf:data\\松村2006a.pdf:PDF},
+  ISSN                     = {03875806},
+  Owner                    = {tatsukawa},
+  Publisher                = {一般社団法人情報処理学会},
+  Timestamp                = {2011.07.10},
+  Url                      = {http://ci.nii.ac.jp/naid/110004782188/}
+}
+
+@Article{柳井2004,
+  Title                    = {条件付き確率に基づく分布推定アルゴリズムによるプログラム進化(進化的計算)},
+  Author                   = {柳井 孝介 and 伊庭 斉志},
+  Journal                  = {情報処理学会研究報告. MPS, 数理モデル化と問題解決研究報告},
+  Year                     = {2004},
+  Number                   = {130},
+  Pages                    = {45-48},
+  Volume                   = {2004},
+
+  File                     = {柳井2004.pdf:柳井2004.pdf:PDF;柳井2004.pdf:data\\柳井2004.pdf:PDF},
+  ISSN                     = {09196072},
+  Publisher                = {社団法人情報処理学会}
+}
+
+@Article{柳瀬2010,
+  Title                    = {確率モデルGPのための二分岐化プロトタイプ木},
+  Author                   = {柳瀬 利彦 and 長谷川 禎彦 and 伊庭 斉志},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {2010},
+  Number                   = {2},
+  Pages                    = {340-350},
+  Volume                   = {25},
+
+  File                     = {柳瀬2010.pdf:柳瀬2010.pdf:PDF;柳瀬2010.pdf:data\\柳瀬2010.pdf:PDF}
+}
+
+@InProceedings{椿2011,
+  Title                    = {多変量データとパネルデータの相関構造に関する注意と試み},
+  Author                   = {椿 広計},
+  Booktitle                = {第2回 Latent Dynamics Workshop},
+  Year                     = {2011},
+
+  File                     = {椿2011.pdf:椿2011.pdf:PDF;椿2011.pdf:data\\椿2011.pdf:PDF},
+  Owner                    = {s.morizawa},
+  Timestamp                = {2012.01.20}
+}
+
+@Article{榎本2002,
+  Title                    = {ACTITによる画像分類システムの提案},
+  Author                   = {榎本 雅仁 and 長尾 智晴},
+  Journal                  = {電子情報通信学会技術研究報告. PRMU, パターン認識・メディア理解},
+  Year                     = {2002},
+  Number                   = {156},
+  Pages                    = {83-90},
+  Volume                   = {102},
+
+  File                     = {榎本2002.pdf:榎本2002.pdf:PDF;榎本2002.pdf:data\\榎本2002.pdf:PDF},
+  ISSN                     = {09135685},
+  Owner                    = {tatsukawa},
+  Publisher                = {社団法人電子情報通信学会},
+  Timestamp                = {2011.07.10},
+  Url                      = {http://ci.nii.ac.jp/naid/110003275570/}
+}
+
+@PhdThesis{渡邉2003,
+  Title                    = {遺伝的アルゴリズムによる多目的最適化に関する研究},
+  Author                   = {渡邉 真也},
+  School                   = {同志社大学大学院工学研究科},
+  Year                     = {2003},
+
+  File                     = {渡邉2003.pdf:渡邉2003.pdf:PDF;渡邉2003.pdf:data\\渡邉2003.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.14}
+}
+
+@Article{滑2010a,
+  Title                    = {再使用観測ロケット空力形状に関する設計探査},
+  Author                   = {滑 慶則 and 高木 亮治 and 大山 聖 and 藤井 孝藏 and 山本 誠},
+  Journal                  = {日本機械学會論文集. C編},
+  Year                     = {2010},
+  Number                   = {771},
+  Pages                    = {2811-2818},
+  Volume                   = {76},
+
+  File                     = {滑2010a.pdf:滑2010a.pdf:PDF;滑2010a.pdf:data\\滑2010a.pdf:PDF},
+  ISSN                     = {03875024},
+  Publisher                = {一般社団法人日本機械学会},
+  Url                      = {http://ci.nii.ac.jp/naid/110008095584/}
+}
+
+@Article{瀬戸2011,
+  Title                    = {高効率手法を適用した静粛超音速航空機の多分野融合最適設計},
+  Author                   = {瀬戸 直人 and 牧野 好和 and 高戸 谷健 and 金崎 雅博},
+  Journal                  = {日本航空宇宙学会論文集},
+  Year                     = {2011},
+  Number                   = {686},
+  Pages                    = {61-69},
+  Volume                   = {59},
+
+  Doi                      = {10.2322/jjsass.59.61},
+  ISSN                     = {1344-6460},
+  Owner                    = {tatsukawa},
+  Publisher                = {社団法人 日本航空宇宙学会},
+  Timestamp                = {2011.07.22},
+  Url                      = {http://ci.nii.ac.jp/naid/130000658911/}
+}
+
+@Article{熊谷2007,
+  Title                    = {頻出部分木発見手法を用いた遺伝的プログラミングの交通信号制御問題への適用},
+  Author                   = {熊谷 潤一 and 小島 康夫 and 高重 聡一 and 亀谷 由隆 and 佐藤 泰介},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {127-139},
+  Volume                   = {22},
+
+  File                     = {熊谷2007.pdf:熊谷2007.pdf:PDF;熊谷2007.pdf:data\\熊谷2007.pdf:PDF}
+}
+
+@Article{片岡2003,
+  Title                    = {遺伝的オートマトンＧＡＵＧＥ},
+  Author                   = {片岡 寛明 and 原 章 and 長尾 智晴},
+  Journal                  = {情報処理学会論文誌},
+  Year                     = {2003},
+  Pages                    = {3232-3241},
+  Volume                   = {44},
+
+  File                     = {片岡2003.pdf:片岡2003.pdf:PDF;片岡2003.pdf:data\\片岡2003.pdf:PDF},
+  Timestamp                = {2010.05.02}
+}
+
+@Article{玉2001,
+  Title                    = {適応的ノード選択による遺伝的プログラミングの効率改善},
+  Author                   = {玉 秀列 and 宮下 和雄 and 西原 清一},
+  Journal                  = {情報処理学会論文誌},
+  Year                     = {2001},
+  Number                   = {7},
+  Pages                    = {1892-1901},
+  Volume                   = {42},
+
+  File                     = {玉2001.pdf:玉2001.pdf:PDF;玉2001.pdf:data\\玉2001.pdf:PDF},
+  ISSN                     = {03875806},
+  Publisher                = {Information,Processing Society of Japan (IPSJ)},
+  Url                      = {http://ci.nii.ac.jp/naid/110002725913/en/}
+}
+
+@InProceedings{田中2006,
+  Title                    = {RNAからDNAへの逆転写メカニズムを適用した遺伝的プログラミングの実現},
+  Author                   = {田中 正造 and 外山 勝彦 and 宮尾 克},
+  Booktitle                = {人工知能学会全国大会(第20回)論文集},
+  Year                     = {2006},
+
+  File                     = {田中2006.pdf:田中2006.pdf:PDF;田中2006.pdf:data\\田中2006.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.15}
+}
+
+@MastersThesis{白丸2002,
+  Title                    = {遺伝的プログラミングを用いた画像認識アルゴリズムの自動生成},
+  Author                   = {白丸淳},
+  School                   = {奈良先端科学技術大学院大学},
+  Year                     = {2002},
+
+  File                     = {白丸2002.pdf:白丸2002.pdf:PDF;白丸2002.pdf:data\\白丸2002.pdf:PDF},
+  Timestamp                = {2011.02.09}
+}
+
+@InProceedings{白山2004,
+  Title                    = {遺伝的プログラミングを用いた自律移動ロボット制御プログラムの生成},
+  Author                   = {白山 政敏 and 越野 亮},
+  Booktitle                = {人工知能学会全国大会(第18回)論文集},
+  Year                     = {2004},
+
+  File                     = {白山2004.pdf:白山2004.pdf:PDF;白山2004.pdf:data\\白山2004.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.15}
+}
+
+@Book{白山2006,
+  Title                    = {知的可視化},
+  Author                   = {白山 晋},
+  Editor                   = {日本計算工学会},
+  Publisher                = {丸善},
+  Year                     = {2006},
+  Month                    = {5},
+
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.08.04}
+}
+
+@Article{白川2010a,
+  Title                    = {遺伝的プログラミングによる実数値GAの性能差を強調する探索空間の生成},
+  Author                   = {白川 真一 and 矢田 紀子 and 長尾 智晴},
+  Journal                  = {進化計算学会論文誌},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {54-64},
+  Volume                   = {1},
+
+  File                     = {白川2010a.pdf:data\\白川2010a.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.04.22}
+}
+
+@InProceedings{白川2010,
+  Title                    = {遺伝的プログラミングにおける関数セットの選択に関する一考察},
+  Author                   = {白川 真一 and 矢田紀子 and 長尾 智晴},
+  Booktitle                = {第3回進化計算フロンティア研究会},
+  Year                     = {2010},
+  Month                    = {3},
+
+  File                     = {白川2010.pdf:白川2010.pdf:PDF;白川2010.pdf:data\\白川2010.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.08}
+}
+
+@PhdThesis{矢吹2004,
+  Title                    = {進化計算による自動プログラミングのための表現の研究},
+  Author                   = {矢吹 太朗},
+  School                   = {東京大学大学院新領域創成科学研究科},
+  Year                     = {2004},
+
+  File                     = {矢吹2004.pdf:矢吹2004.pdf:PDF;矢吹2004.pdf:data\\矢吹2004.pdf:PDF},
+  Timestamp                = {2010.05.02}
+}
+
+@Article{矢吹2004a,
+  Title                    = {No Free Lunch Theorem―理想の** の探し方―},
+  Author                   = {矢吹 太朗 and 伊庭 斉志},
+
+  File                     = {矢吹2004a.pdf:矢吹2004a.pdf:PDF;矢吹2004a.pdf:data\\矢吹2004a.pdf:PDF},
+  Url                      = {http://www.unfindable.net/~yabuki/article/no_free_lunch/}
+}
+
+@Article{石川1997,
+  Title                    = {PODおよびWavelet変換による乱流混合層大規模組織構造の研究},
+  Author                   = {石川 仁 and 木谷 勝 and 望月 修 and 前川 博},
+  Journal                  = {日本機械学會論文集. B編},
+  Year                     = {1997},
+  Number                   = {610},
+  Pages                    = {2001--2008},
+  Volume                   = {63},
+
+  File                     = {石川1997.pdf:石川1997.pdf:PDF;石川1997.pdf:data\\石川1997.pdf:PDF},
+  Timestamp                = {2008.06.12}
+}
+
+@Article{石渕2010,
+  Title                    = {進化計算の内外の研究動向},
+  Author                   = {石渕 久生 and 半田 久志},
+  Journal                  = {進化計算学会論文誌},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {15-22},
+  Volume                   = {1},
+
+  File                     = {石渕2010.pdf:石渕2010.pdf:PDF;石渕2010.pdf:data\\石渕2010.pdf:PDF},
+  Timestamp                = {2011.02.08}
+}
+
+@Article{立川2013,
+  Title                    = {実問題を用いた多数目的最適化における進化的アルゴリズムの性能比較　-衛星軌道設計問題を題材に-},
+  Author                   = {立川 智章 and A.L.Jaimes and 大山 聖 and 藤井 孝藏},
+  Journal                  = {進化計算学会論文誌ンポジウム2013},
+  Year                     = {2013},
+
+  Owner                    = {kondoh},
+  Timestamp                = {2015.08.28}
+}
+
+@Article{立川智章2012,
+  Title                    = {ＧＰを用いた非劣解からの設計情報の抽出},
+  Author                   = {立川 智章 and 大山 聖 and 藤井 孝藏},
+  Journal                  = {進化計算学会論文誌},
+  Year                     = {2012},
+  Number                   = {3},
+  Pages                    = {133-142},
+  Volume                   = {3},
+
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.01.28}
+}
+
+@InProceedings{立川2010,
+  Title                    = {ＧＰを用いたパレート最適解からの設計情報の抽出（第一報）},
+  Author                   = {立川 智章 and 大山 聖 and 藤井 孝藏},
+  Booktitle                = {第４回進化計算フロンティア研究会},
+  Year                     = {2010},
+
+  Timestamp                = {2011.11.21}
+}
+
+@InProceedings{立川2008,
+  Title                    = {多目的空力最適化におけるデータマイニング手法の研究},
+  Author                   = {立川智章 and 大山聖 and 藤井孝藏},
+  Booktitle                = {計算工学講演会論文集},
+  Year                     = {2008},
+
+  Timestamp                = {2011.05.30}
+}
+
+@InProceedings{荒関2003,
+  Title                    = {遺伝的プログラミングにおける進化計算の高速化},
+  Author                   = {荒関 仁志},
+  Booktitle                = {人工知能学会全国大会(第17回)論文集},
+  Year                     = {2003},
+
+  File                     = {荒関2003.pdf:荒関2003.pdf:PDF;荒関2003.pdf:data\\荒関2003.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.15}
+}
+
+@InProceedings{藤井2009,
+  Title                    = {設計探査・データ探査利用の試み －2次元遷音速翼型を例として},
+  Author                   = {藤井孝藏 and 大山聖 and Paul Verburg and 石川義泰},
+  Booktitle                = {平成20年度航空宇宙空力班シンポジウム},
+  Year                     = {2009},
+
+  File                     = {藤井2009.pdf:藤井2009.pdf:PDF;藤井2009.pdf:data\\藤井2009.pdf:PDF}
+}
+
+@InProceedings{藤原2010,
+  Title                    = {進化計算手法に基づく外国為替の自動取引},
+  Author                   = {藤原健太 and 伊庭斉志},
+  Booktitle                = {人工知能学会研究会資料},
+  Year                     = {2010},
+
+  File                     = {藤原2010.pdf:data\\藤原2010.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2013.04.22}
+}
+
+@InProceedings{谷口2001,
+  Title                    = {エージェント指向サプライチェーンモデルに対する遺伝的プログラミングの適用},
+  Author                   = {谷口 憲 and 倉橋 節也 and 寺野 隆雄},
+  Booktitle                = {人工知能学会全国大会（第15回）論文集},
+  Year                     = {2001},
+
+  File                     = {谷口2001.pdf:谷口2001.pdf:PDF;谷口2001.pdf:data\\谷口2001.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.15}
+}
+
+@InProceedings{谷口2004,
+  Title                    = {論理型遺伝的プログラミングによる多用解の獲得},
+  Author                   = {谷口 憲 and 寺野 隆雄},
+  Booktitle                = {人工知能学会全国大会(第18回)論文集},
+  Year                     = {2004},
+
+  File                     = {谷口2004:谷口2004.pdf:PDF;谷口2004.pdf:data\\谷口2004.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.15}
+}
+
+@InProceedings{辻2004,
+  Title                    = {多目的戦略を用いたGPのTree size controlと移動ロボットの行動制御への適用},
+  Author                   = {辻 康孝 and 橋本 学 and 近藤 英二 and 早田 浩二},
+  Booktitle                = {人工知能学会全国大会(第18回)論文集},
+  Year                     = {2004},
+
+  File                     = {辻2004.pdf:辻2004.pdf:PDF;辻2004.pdf:data\\辻2004.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2010.04.15}
+}
+
+@InProceedings{酒井2007,
+  Title                    = {多次元変数空間のプロファイルチャートなどによる可視化},
+  Author                   = {酒井 浩行 and 大林 茂},
+  Booktitle                = {第17 回設計工学・システム部門講演会},
+  Year                     = {2007},
+
+  File                     = {酒井2007.pdf:酒井2007.pdf:PDF;酒井2007.pdf:data\\酒井2007.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.04.15}
+}
+
+@InProceedings{酒井2007a,
+  Title                    = {可視化による設計空間特徴抽出},
+  Author                   = {酒井 浩行 and 川畑 英貴 and 大 林茂},
+  Booktitle                = {第17 回設計工学・システム部門講演会},
+  Year                     = {2007},
+
+  File                     = {酒井2007a.pdf:酒井2007a.pdf:PDF;酒井2007a.pdf:data\\酒井2007a.pdf:PDF},
+  Owner                    = {tatsukawa},
+  Timestamp                = {2008.04.15}
+}
+
+@Article{鈴木2011,
+  Title                    = {数値流体力学と実験流体力学の融合による噴流の不安定性と放射音の研究：最小2乗法の応用},
+  Author                   = {鈴木 崇夫},
+  Journal                  = {ながれ : 日本流体力学会誌　},
+  Year                     = {2011},
+  Pages                    = {169-172},
+
+  File                     = {:鈴木2011.pdf:PDF;鈴木2011.pdf:data\\鈴木2011.pdf:PDF},
+  Owner                    = {s.morizawa},
+  Timestamp                = {2012.08.08}
+}
+
+@Article{長谷川2009,
+  Title                    = {PCFG-LA混合モデルに基づく分布推定アルゴリズム},
+  Author                   = {長谷川 禎彦 and 伊庭 斉志},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {2009},
+  Number                   = {1},
+  Pages                    = {80-91},
+  Volume                   = {24},
+
+  Owner                    = {tatsukawa}
+}
+
+@Article{長谷川2007,
+  Title                    = {ベイジアンネットワーク推定による確率モデル遺伝的プログラミング},
+  Author                   = {長谷川 禎彦 and 伊庭 斉志},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {2007},
+  Number                   = {1},
+  Pages                    = {37-47},
+  Volume                   = {22},
+
+  File                     = {長谷川2007.pdf:長谷川2007.pdf:PDF;長谷川2007.pdf:data\\長谷川2007.pdf:PDF},
+  Owner                    = {tatsukawa}
+}
+
+@Article{長谷川2006,
+  Title                    = {免疫系を用いた遺伝的プログラミングによる多峰性探索},
+  Author                   = {長谷川 禎彦 and 伊庭 斉志},
+  Journal                  = {人工知能学会論文誌},
+  Year                     = {2006},
+  Number                   = {2},
+  Pages                    = {176-183},
+  Volume                   = {21},
+
+  File                     = {長谷川2006.pdf:長谷川2006.pdf:PDF;長谷川2006.pdf:data\\長谷川2006.pdf:PDF},
+  Owner                    = {tatsukawa}
+}
+
+@Article{高木2006b,
+  Title                    = {遺伝的プログラミングによる分類関数近似を用いた文書分類とその応用},
+  Author                   = {高木 昇 and 時永 祥三},
+  Journal                  = {電子情報通信学会技術研究報告. CAS, 回路とシステム},
+  Year                     = {2006},
+  Number                   = {503},
+  Pages                    = {13-17},
+  Volume                   = {105},
+
+  File                     = {高木2006b.pdf:高木2006b.pdf:PDF;高木2006b.pdf:data\\高木2006b.pdf:PDF},
+  ISSN                     = {09135685},
+  Owner                    = {tatsukawa},
+  Publisher                = {社団法人電子情報通信学会},
+  Url                      = {http://ci.nii.ac.jp/naid/110004079331/}
+}
+
+@Book{森2004,
+  Title                    = {ラフ集合と感性-データからの知識獲得と推論},
+  Editor                   = {森 典彦 and 田中 英夫 and 井上 勝雄},
+  Publisher                = {海文堂出版},
+  Year                     = {2004},
+
+  Timestamp                = {2011.05.30}
+}
+
+@Misc{EC2010,
+  Title                    = {進化計算シンポジウム2010 講演論文集},
+  Note                     = {進化計算学会},
+  Year                     = {2010},
+
+  File                     = {EC2010.pdf:EC2010.pdf:PDF;EC2010.pdf:data\\EC2010.pdf:PDF},
+  Owner                    = {morizawa},
+  Timestamp                = {2010.12.24}
+}
+
+@Misc{sigecf2009_01,
+  Title                    = {第1回進化計算フロンティア研究会資料集},
+  Note                     = {人工知能学会},
+  Year                     = {2009},
+
+  File                     = {sigecf2009_01.pdf:sigecf2009_01.pdf:PDF;sigecf2009_01.pdf:data\\sigecf2009_01.pdf:PDF},
+  Organization             = {人工知能学会},
+  Owner                    = {tatsukawa}
+}
+
+@Misc{sigecf2009_02,
+  Title                    = {第2回進化計算フロンティア研究会資料集},
+  Note                     = {人工知能学会},
+  Year                     = {2009},
+
+  File                     = {sigecf2009_02.pdf:sigecf2009_02.pdf:PDF;sigecf2009_02.pdf:data\\sigecf2009_02.pdf:PDF},
+  Organization             = {人工知能学会},
+  Owner                    = {tatsukawa}
+}
+
+@Misc{sigecf2009_03,
+  Title                    = {第3回進化計算フロンティア研究会資料集},
+  Note                     = {人工知能学会},
+  Year                     = {2009},
+
+  File                     = {sigecf2009_03.pdf:sigecf2009_03.pdf:PDF;sigecf2009_03.pdf:data\\sigecf2009_03.pdf:PDF},
+  Organization             = {人工知能学会},
+  Owner                    = {tatsukawa}
+}
+
+@comment{jabref-meta: selector_Title:Jet;}
+
+@comment{jabref-meta: fileDirectory:./data;}
+
+@comment{jabref-meta: selector_author:Lele;}
+
+@comment{jabref-meta: selector_keywords:Lele;Moin;}
+
+@comment{jabref-meta: groupsversion:3;}
+
+@comment{jabref-meta: groupstree:
+0 AllEntriesGroup:;
+1 SearchGroup:Jet\;0\;jet\;0\;0\;;
+1 SearchGroup:base flow\;0\;base\;0\;0\;;
+1 SearchGroup:WCNS\;0\;weighted\;0\;0\;;
+1 ExplicitGroup:wing\;0\;;
+}
+

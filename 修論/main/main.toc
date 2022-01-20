@@ -1,0 +1,70 @@
+\contentsline {chapter}{\numberline {第1章}序論}{1}
+\contentsline {section}{\numberline {1.1}研究背景}{1}
+\contentsline {section}{\numberline {1.2}研究目的}{2}
+\contentsline {section}{\numberline {1.3}本論文の構成}{2}
+\contentsline {chapter}{\numberline {第2章}多目的最適化}{4}
+\contentsline {section}{\numberline {2.1}多目的最適化問題}{4}
+\contentsline {section}{\numberline {2.2}パレート最適解}{5}
+\contentsline {section}{\numberline {2.3}進化的多目的最適化アルゴリズム}{6}
+\contentsline {section}{\numberline {2.4}遺伝的アルゴリズム}{6}
+\contentsline {section}{\numberline {2.5}NSGA-II}{8}
+\contentsline {section}{\numberline {2.6}MOEA/D}{12}
+\contentsline {section}{\numberline {2.7}解の評価指標について}{14}
+\contentsline {subsection}{\numberline {2.7.1}GD}{14}
+\contentsline {subsection}{\numberline {2.7.2}IGD}{15}
+\contentsline {chapter}{\numberline {第3章}関連研究}{16}
+\contentsline {section}{\numberline {3.1}目的関数の離散化に関する研究}{16}
+\contentsline {section}{\numberline {3.2}設計変数空間の離散化に関する研究}{17}
+\contentsline {chapter}{\numberline {第4章}設計変数の離散化による影響評価}{26}
+\contentsline {section}{\numberline {4.1}実験条件}{26}
+\contentsline {subsection}{\numberline {4.1.1}影響評価で使用するベンチマーク問題}{26}
+\contentsline {subsubsection}{\numberline {4.1.1.1}DTLZ問題}{27}
+\contentsline {paragraph}{\numberline {4.1.1.1.1}DTLZ2}{28}
+\contentsline {paragraph}{\numberline {4.1.1.1.2}DTLZ3}{28}
+\contentsline {paragraph}{\numberline {4.1.1.1.3}DTLZ4}{30}
+\contentsline {subsubsection}{\numberline {4.1.1.2}WFG問題}{31}
+\contentsline {subsubsection}{\numberline {4.1.1.3}CEC2009問題}{34}
+\contentsline {paragraph}{\numberline {4.1.1.3.1}UF2}{34}
+\contentsline {paragraph}{\numberline {4.1.1.3.2}UF9}{34}
+\contentsline {paragraph}{\numberline {4.1.1.3.3}CF2}{35}
+\contentsline {paragraph}{\numberline {4.1.1.3.4}CF7}{36}
+\contentsline {subsubsection}{\numberline {4.1.1.4}CDTLZ問題}{37}
+\contentsline {paragraph}{\numberline {4.1.1.4.1}C1DTLZ3}{37}
+\contentsline {paragraph}{\numberline {4.1.1.4.2}C2DTLZ2 convex}{37}
+\contentsline {paragraph}{\numberline {4.1.1.4.3}C3DTLZ1}{38}
+\contentsline {subsubsection}{\numberline {4.1.1.5}Engineering問題}{39}
+\contentsline {paragraph}{\numberline {4.1.1.5.1}Car Side Impact}{39}
+\contentsline {paragraph}{\numberline {4.1.1.5.2}Welded Beam Design}{39}
+\contentsline {subsubsection}{\numberline {4.1.1.6}Modified DTLZ問題}{42}
+\contentsline {paragraph}{\numberline {4.1.1.6.1}Modified DTLZ2, 4}{42}
+\contentsline {paragraph}{\numberline {4.1.1.6.2}Modified DTLZ3}{42}
+\contentsline {subsection}{\numberline {4.1.2}計算条件}{43}
+\contentsline {section}{\numberline {4.2}数値実験の結果と考察}{43}
+\contentsline {subsection}{\numberline {4.2.1}NSGA-IIの結果}{43}
+\contentsline {subsection}{\numberline {4.2.2}MOEA/D}{49}
+\contentsline {section}{\numberline {4.3}設計変数の離散化による影響評価のまとめ}{55}
+\contentsline {chapter}{\numberline {第5章}設計変数の適応的離散化手法}{57}
+\contentsline {section}{\numberline {5.1}設計変数の離散化の課題と解決に向けたアプローチ}{57}
+\contentsline {section}{\numberline {5.2}適応的離散化手法について}{57}
+\contentsline {subsection}{\numberline {5.2.1}標準偏差を用いた離散化手法}{59}
+\contentsline {subsection}{\numberline {5.2.2}推定された確率密度関数値を用いた離散化手法}{60}
+\contentsline {chapter}{\numberline {第6章}適応的離散化手法の性能評価}{62}
+\contentsline {section}{\numberline {6.1}実験条件}{62}
+\contentsline {subsection}{\numberline {6.1.1}性能評価に使用するベンチマーク問題}{62}
+\contentsline {subsubsection}{\numberline {6.1.1.1}DTLZ7}{63}
+\contentsline {subsubsection}{\numberline {6.1.1.2}WFG8}{64}
+\contentsline {subsubsection}{\numberline {6.1.1.3}Multi DTLZ問題}{64}
+\contentsline {paragraph}{\numberline {6.1.1.3.1}Multi DTLZ2，4}{64}
+\contentsline {paragraph}{\numberline {6.1.1.3.2}Multi DTLZ3}{65}
+\contentsline {subsection}{\numberline {6.1.2}計算条件}{65}
+\contentsline {section}{\numberline {6.2}数値実験の結果と考察}{66}
+\contentsline {subsection}{\numberline {6.2.1}特徴的な結果が得られた問題の分析}{74}
+\contentsline {subsubsection}{\numberline {6.2.1.1}DTLZ3}{74}
+\contentsline {subsubsection}{\numberline {6.2.1.2}WFG7}{76}
+\contentsline {subsubsection}{\numberline {6.2.1.3}Multi DTLZ4}{79}
+\contentsline {section}{\numberline {6.3}適応的離散化手法の性能評価のまとめ}{82}
+\contentsline {chapter}{\numberline {第7章}結論}{83}
+\contentsline {section}{\numberline {7.1}まとめ}{83}
+\contentsline {section}{\numberline {7.2}今後の課題}{84}
+\contentsline {chapter}{謝辞}{85}
+\contentsline {chapter}{参考文献}{86}
